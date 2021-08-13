@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Rubble_2.obj-e4539713a74d3afca8a4ac1a94e541a8.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Rubble_2.obj-e4539713a74d3afca8a4ac1a94e541a8.mesh" ]
+
+source_file="res://Modular Temple/Prop_Rubble_2.obj"
+dest_files=[ "res://.import/Prop_Rubble_2.obj-e4539713a74d3afca8a4ac1a94e541a8.mesh", "res://.import/Prop_Rubble_2.obj-e4539713a74d3afca8a4ac1a94e541a8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

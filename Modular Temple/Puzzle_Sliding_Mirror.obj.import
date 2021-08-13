@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Sliding_Mirror.obj-b446646b7010d293b719b76689d1493e.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Sliding_Mirror.obj-b446646b7010d293b719b76689d1493e.mesh" ]
+
+source_file="res://Modular Temple/Puzzle_Sliding_Mirror.obj"
+dest_files=[ "res://.import/Puzzle_Sliding_Mirror.obj-b446646b7010d293b719b76689d1493e.mesh", "res://.import/Puzzle_Sliding_Mirror.obj-b446646b7010d293b719b76689d1493e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wall_End_Coping.obj-1209377a8ead85c8e25ece287938883d.mesh"
+
+[deps]
+
+files=[ "res://.import/Wall_End_Coping.obj-1209377a8ead85c8e25ece287938883d.mesh" ]
+
+source_file="res://Modular Temple/Wall_End_Coping.obj"
+dest_files=[ "res://.import/Wall_End_Coping.obj-1209377a8ead85c8e25ece287938883d.mesh", "res://.import/Wall_End_Coping.obj-1209377a8ead85c8e25ece287938883d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

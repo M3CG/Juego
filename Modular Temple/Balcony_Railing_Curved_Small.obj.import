@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Balcony_Railing_Curved_Small.obj-ff4c03945200b4dd1c37420a997fe2fd.mesh"
+
+[deps]
+
+files=[ "res://.import/Balcony_Railing_Curved_Small.obj-ff4c03945200b4dd1c37420a997fe2fd.mesh" ]
+
+source_file="res://Modular Temple/Balcony_Railing_Curved_Small.obj"
+dest_files=[ "res://.import/Balcony_Railing_Curved_Small.obj-ff4c03945200b4dd1c37420a997fe2fd.mesh", "res://.import/Balcony_Railing_Curved_Small.obj-ff4c03945200b4dd1c37420a997fe2fd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

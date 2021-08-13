@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Floor_Conduit_Rotating_Housing_Straight.obj-a8086a99d7df89f2c3fc2ca0c50eeeed.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Floor_Conduit_Rotating_Housing_Straight.obj-a8086a99d7df89f2c3fc2ca0c50eeeed.mesh" ]
+
+source_file="res://Modular Temple/Puzzle_Floor_Conduit_Rotating_Housing_Straight.obj"
+dest_files=[ "res://.import/Puzzle_Floor_Conduit_Rotating_Housing_Straight.obj-a8086a99d7df89f2c3fc2ca0c50eeeed.mesh", "res://.import/Puzzle_Floor_Conduit_Rotating_Housing_Straight.obj-a8086a99d7df89f2c3fc2ca0c50eeeed.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

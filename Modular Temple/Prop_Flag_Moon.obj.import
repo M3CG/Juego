@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Flag_Moon.obj-ab90d6d8605bf4c3a171f3ee4391bdbf.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Flag_Moon.obj-ab90d6d8605bf4c3a171f3ee4391bdbf.mesh" ]
+
+source_file="res://Modular Temple/Prop_Flag_Moon.obj"
+dest_files=[ "res://.import/Prop_Flag_Moon.obj-ab90d6d8605bf4c3a171f3ee4391bdbf.mesh", "res://.import/Prop_Flag_Moon.obj-ab90d6d8605bf4c3a171f3ee4391bdbf.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

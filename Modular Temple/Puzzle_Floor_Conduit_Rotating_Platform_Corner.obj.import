@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Floor_Conduit_Rotating_Platform_Corner.obj-34bbbe6d438eccf438eef5e18b60ca1d.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Floor_Conduit_Rotating_Platform_Corner.obj-34bbbe6d438eccf438eef5e18b60ca1d.mesh" ]
+
+source_file="res://Modular Temple/Puzzle_Floor_Conduit_Rotating_Platform_Corner.obj"
+dest_files=[ "res://.import/Puzzle_Floor_Conduit_Rotating_Platform_Corner.obj-34bbbe6d438eccf438eef5e18b60ca1d.mesh", "res://.import/Puzzle_Floor_Conduit_Rotating_Platform_Corner.obj-34bbbe6d438eccf438eef5e18b60ca1d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

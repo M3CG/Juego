@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Stairs_Coping_Ramp_Curved_Small.obj-3def18c0e6ed4940a1f03ea0ac88bfa8.mesh"
+
+[deps]
+
+files=[ "res://.import/Stairs_Coping_Ramp_Curved_Small.obj-3def18c0e6ed4940a1f03ea0ac88bfa8.mesh" ]
+
+source_file="res://Modular Temple/Stairs_Coping_Ramp_Curved_Small.obj"
+dest_files=[ "res://.import/Stairs_Coping_Ramp_Curved_Small.obj-3def18c0e6ed4940a1f03ea0ac88bfa8.mesh", "res://.import/Stairs_Coping_Ramp_Curved_Small.obj-3def18c0e6ed4940a1f03ea0ac88bfa8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wall_End_Top.obj-16839e856cfe6f9cd09b40ca4a660594.mesh"
+
+[deps]
+
+files=[ "res://.import/Wall_End_Top.obj-16839e856cfe6f9cd09b40ca4a660594.mesh" ]
+
+source_file="res://Modular Temple/Wall_End_Top.obj"
+dest_files=[ "res://.import/Wall_End_Top.obj-16839e856cfe6f9cd09b40ca4a660594.mesh", "res://.import/Wall_End_Top.obj-16839e856cfe6f9cd09b40ca4a660594.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

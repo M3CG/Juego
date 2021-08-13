@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Stairs_Newel_Middle.obj-6706dd630e07a13d516cb8f823c656ce.mesh"
+
+[deps]
+
+files=[ "res://.import/Stairs_Newel_Middle.obj-6706dd630e07a13d516cb8f823c656ce.mesh" ]
+
+source_file="res://stair/Stairs_Newel_Middle.obj"
+dest_files=[ "res://.import/Stairs_Newel_Middle.obj-6706dd630e07a13d516cb8f823c656ce.mesh", "res://.import/Stairs_Newel_Middle.obj-6706dd630e07a13d516cb8f823c656ce.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

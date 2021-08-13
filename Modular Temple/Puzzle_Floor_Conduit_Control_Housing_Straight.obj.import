@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Floor_Conduit_Control_Housing_Straight.obj-8f933fdc04e29b8e7632fb58d5c52e54.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Floor_Conduit_Control_Housing_Straight.obj-8f933fdc04e29b8e7632fb58d5c52e54.mesh" ]
+
+source_file="res://Modular Temple/Puzzle_Floor_Conduit_Control_Housing_Straight.obj"
+dest_files=[ "res://.import/Puzzle_Floor_Conduit_Control_Housing_Straight.obj-8f933fdc04e29b8e7632fb58d5c52e54.mesh", "res://.import/Puzzle_Floor_Conduit_Control_Housing_Straight.obj-8f933fdc04e29b8e7632fb58d5c52e54.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

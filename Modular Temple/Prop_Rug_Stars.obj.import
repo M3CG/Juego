@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Rug_Stars.obj-cff00b8c22769aa96704e5fe1cb9f14e.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Rug_Stars.obj-cff00b8c22769aa96704e5fe1cb9f14e.mesh" ]
+
+source_file="res://Modular Temple/Prop_Rug_Stars.obj"
+dest_files=[ "res://.import/Prop_Rug_Stars.obj-cff00b8c22769aa96704e5fe1cb9f14e.mesh", "res://.import/Prop_Rug_Stars.obj-cff00b8c22769aa96704e5fe1cb9f14e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

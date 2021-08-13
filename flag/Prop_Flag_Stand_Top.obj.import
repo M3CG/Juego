@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Flag_Stand_Top.obj-f66af569e2a660dc5ebaf742eb1b5d58.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Flag_Stand_Top.obj-f66af569e2a660dc5ebaf742eb1b5d58.mesh" ]
+
+source_file="res://flag/Prop_Flag_Stand_Top.obj"
+dest_files=[ "res://.import/Prop_Flag_Stand_Top.obj-f66af569e2a660dc5ebaf742eb1b5d58.mesh", "res://.import/Prop_Flag_Stand_Top.obj-f66af569e2a660dc5ebaf742eb1b5d58.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

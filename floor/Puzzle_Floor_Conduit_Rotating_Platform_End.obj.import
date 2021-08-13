@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Floor_Conduit_Rotating_Platform_End.obj-7d193aad005e4f56f4f19311e4617f6c.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Floor_Conduit_Rotating_Platform_End.obj-7d193aad005e4f56f4f19311e4617f6c.mesh" ]
+
+source_file="res://floor/Puzzle_Floor_Conduit_Rotating_Platform_End.obj"
+dest_files=[ "res://.import/Puzzle_Floor_Conduit_Rotating_Platform_End.obj-7d193aad005e4f56f4f19311e4617f6c.mesh", "res://.import/Puzzle_Floor_Conduit_Rotating_Platform_End.obj-7d193aad005e4f56f4f19311e4617f6c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

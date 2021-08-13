@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Steps_Conduit.obj-39dc5071fdb0d26eff16f78d83d1d2ec.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Steps_Conduit.obj-39dc5071fdb0d26eff16f78d83d1d2ec.mesh" ]
+
+source_file="res://Modular Temple/Puzzle_Steps_Conduit.obj"
+dest_files=[ "res://.import/Puzzle_Steps_Conduit.obj-39dc5071fdb0d26eff16f78d83d1d2ec.mesh", "res://.import/Puzzle_Steps_Conduit.obj-39dc5071fdb0d26eff16f78d83d1d2ec.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

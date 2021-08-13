@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Wall_Conduit_Path_TJoint.obj-8910ee3895a479de3186533eeb442ea4.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Wall_Conduit_Path_TJoint.obj-8910ee3895a479de3186533eeb442ea4.mesh" ]
+
+source_file="res://Modular Temple/Puzzle_Wall_Conduit_Path_TJoint.obj"
+dest_files=[ "res://.import/Puzzle_Wall_Conduit_Path_TJoint.obj-8910ee3895a479de3186533eeb442ea4.mesh", "res://.import/Puzzle_Wall_Conduit_Path_TJoint.obj-8910ee3895a479de3186533eeb442ea4.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

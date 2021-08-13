@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wall_Curved_Small_Middle.obj-58f9da79a118d0f1536e1e2f7df22231.mesh"
+
+[deps]
+
+files=[ "res://.import/Wall_Curved_Small_Middle.obj-58f9da79a118d0f1536e1e2f7df22231.mesh" ]
+
+source_file="res://Modular Temple/Wall_Curved_Small_Middle.obj"
+dest_files=[ "res://.import/Wall_Curved_Small_Middle.obj-58f9da79a118d0f1536e1e2f7df22231.mesh", "res://.import/Wall_Curved_Small_Middle.obj-58f9da79a118d0f1536e1e2f7df22231.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

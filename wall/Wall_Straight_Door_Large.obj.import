@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wall_Straight_Door_Large.obj-9aadfe8f63065922cbf0c8f136f4e6d8.mesh"
+
+[deps]
+
+files=[ "res://.import/Wall_Straight_Door_Large.obj-9aadfe8f63065922cbf0c8f136f4e6d8.mesh" ]
+
+source_file="res://wall/Wall_Straight_Door_Large.obj"
+dest_files=[ "res://.import/Wall_Straight_Door_Large.obj-9aadfe8f63065922cbf0c8f136f4e6d8.mesh", "res://.import/Wall_Straight_Door_Large.obj-9aadfe8f63065922cbf0c8f136f4e6d8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wall_Curved_Large_Coping.obj-b2dec71d105f36e55d00c5a1ef4cf428.mesh"
+
+[deps]
+
+files=[ "res://.import/Wall_Curved_Large_Coping.obj-b2dec71d105f36e55d00c5a1ef4cf428.mesh" ]
+
+source_file="res://Modular Temple/Wall_Curved_Large_Coping.obj"
+dest_files=[ "res://.import/Wall_Curved_Large_Coping.obj-b2dec71d105f36e55d00c5a1ef4cf428.mesh", "res://.import/Wall_Curved_Large_Coping.obj-b2dec71d105f36e55d00c5a1ef4cf428.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Flag_Sun.obj-7678578b811d42d657bca7dee6a44389.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Flag_Sun.obj-7678578b811d42d657bca7dee6a44389.mesh" ]
+
+source_file="res://Modular Temple/Prop_Flag_Sun.obj"
+dest_files=[ "res://.import/Prop_Flag_Sun.obj-7678578b811d42d657bca7dee6a44389.mesh", "res://.import/Prop_Flag_Sun.obj-7678578b811d42d657bca7dee6a44389.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

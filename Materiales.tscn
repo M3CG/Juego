@@ -1,0 +1,3780 @@
+[gd_scene load_steps=226 format=2]
+
+[ext_resource path="res://Modular Temple/Balcony_Base_Bridge_Ramp.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://Modular Temple/Balcony_Railing_Curved_Small.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://Modular Temple/Prop_Rug_Corner_Inner.obj" type="ArrayMesh" id=3]
+[ext_resource path="res://Modular Temple/Prop_Rug_Side.obj" type="ArrayMesh" id=4]
+[ext_resource path="res://Modular Temple/Balcony_Base_Curved_Small.obj" type="ArrayMesh" id=5]
+[ext_resource path="res://Modular Temple/Floor_Curved_Large_Outer.obj" type="ArrayMesh" id=6]
+[ext_resource path="res://Modular Temple/Prop_Flag_Moon.obj" type="ArrayMesh" id=7]
+[ext_resource path="res://Modular Temple/Floor_Curved_Large.obj" type="ArrayMesh" id=8]
+[ext_resource path="res://Modular Temple/Balcony_Railing_Straight.obj" type="ArrayMesh" id=9]
+[ext_resource path="res://Modular Temple/Pillar_Large_Middle.obj" type="ArrayMesh" id=10]
+[ext_resource path="res://Modular Temple/Prop_Flag_Stand_Extension.obj" type="ArrayMesh" id=11]
+[ext_resource path="res://Modular Temple/Pillar_Wall_Base.obj" type="ArrayMesh" id=12]
+[ext_resource path="res://Modular Temple/Floor_Ruined_Straight_1.obj" type="ArrayMesh" id=13]
+[ext_resource path="res://Modular Temple/Prop_Rug_Middle.obj" type="ArrayMesh" id=14]
+[ext_resource path="res://Modular Temple/Prop_Rubble_1.obj" type="ArrayMesh" id=15]
+[ext_resource path="res://Modular Temple/Balcony_Railing_End.obj" type="ArrayMesh" id=16]
+[ext_resource path="res://Modular Temple/Prop_Flag_1.obj" type="ArrayMesh" id=17]
+[ext_resource path="res://Modular Temple/Floor_Curved_Small_Outer.obj" type="ArrayMesh" id=18]
+[ext_resource path="res://Modular Temple/Prop_Flag_2.obj" type="ArrayMesh" id=19]
+[ext_resource path="res://Modular Temple/Prop_Rug_Corner_Outer.obj" type="ArrayMesh" id=20]
+[ext_resource path="res://Modular Temple/Floor_Normal_Square.obj" type="ArrayMesh" id=21]
+[ext_resource path="res://Modular Temple/Prop_Flag_Sun.obj" type="ArrayMesh" id=22]
+[ext_resource path="res://Modular Temple/Balcony_Railing_Curved_Large.obj" type="ArrayMesh" id=23]
+[ext_resource path="res://Modular Temple/Prop_Flag_Stand_Top.obj" type="ArrayMesh" id=24]
+[ext_resource path="res://Modular Temple/Floor_Ruined_Corner_Outer_2.obj" type="ArrayMesh" id=25]
+[ext_resource path="res://Modular Temple/Pillar_Large_Arch_Top.obj" type="ArrayMesh" id=26]
+[ext_resource path="res://Modular Temple/Pillar_Wall_Middle.obj" type="ArrayMesh" id=27]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Rotating_Platform_Corner.obj" type="ArrayMesh" id=28]
+[ext_resource path="res://Modular Temple/Balcony_Base_Curved_Large.obj" type="ArrayMesh" id=29]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Rotating_Platform_Corner.obj" type="ArrayMesh" id=30]
+[ext_resource path="res://Modular Temple/Prop_Rug_Moon.obj" type="ArrayMesh" id=31]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Rotating_Housing_Unconnected.obj" type="ArrayMesh" id=32]
+[ext_resource path="res://Modular Temple/Puzzle_Sliding_Pillar.obj" type="ArrayMesh" id=33]
+[ext_resource path="res://Modular Temple/Puzzle_Sliding_Emitter.obj" type="ArrayMesh" id=34]
+[ext_resource path="res://Modular Temple/Wall_Curved_Small_Base.obj" type="ArrayMesh" id=35]
+[ext_resource path="res://Modular Temple/Wall_Curved_Small_Coping.obj" type="ArrayMesh" id=36]
+[ext_resource path="res://Modular Temple/Wall_Curved_Small_Middle.obj" type="ArrayMesh" id=37]
+[ext_resource path="res://Modular Temple/Wall_Curved_Small_Top.obj" type="ArrayMesh" id=38]
+[ext_resource path="res://Modular Temple/Wall_Curved_Small_Window_Tall.obj" type="ArrayMesh" id=39]
+[ext_resource path="res://Modular Temple/Wall_Curved_Small_Window.obj" type="ArrayMesh" id=40]
+[ext_resource path="res://Modular Temple/Wall_End_Base.obj" type="ArrayMesh" id=41]
+[ext_resource path="res://Modular Temple/Wall_End_Coping.obj" type="ArrayMesh" id=42]
+[ext_resource path="res://Modular Temple/Wall_End_Middle.obj" type="ArrayMesh" id=43]
+[ext_resource path="res://Modular Temple/Wall_End_Top.obj" type="ArrayMesh" id=44]
+[ext_resource path="res://Modular Temple/Wall_Ruined_Corner_Inner_2.obj" type="ArrayMesh" id=45]
+[ext_resource path="res://Modular Temple/Wall_Ruined_Corner_Inner_1.obj" type="ArrayMesh" id=46]
+[ext_resource path="res://Modular Temple/Wall_Ruined_Corner_Outer_1.obj" type="ArrayMesh" id=47]
+[ext_resource path="res://Modular Temple/Wall_Ruined_Corner_Outer_2.obj" type="ArrayMesh" id=48]
+[ext_resource path="res://Modular Temple/Wall_Ruined_Full_2.obj" type="ArrayMesh" id=49]
+[ext_resource path="res://Modular Temple/Wall_Ruined_Full_1.obj" type="ArrayMesh" id=50]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Rotating_Platform_TJoint.obj" type="ArrayMesh" id=51]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Rotating_Platform_End.obj" type="ArrayMesh" id=52]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Rotating_Housing_TJoint.obj" type="ArrayMesh" id=53]
+[ext_resource path="res://Modular Temple/Pillar_Wall_Top.obj" type="ArrayMesh" id=54]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Emitter_TJoint.obj" type="ArrayMesh" id=55]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Button_Corner.obj" type="ArrayMesh" id=56]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Rotating_Housing_End.obj" type="ArrayMesh" id=57]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Rotating_Housing_Straight.obj" type="ArrayMesh" id=58]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Button_TJoint.obj" type="ArrayMesh" id=59]
+[ext_resource path="res://Modular Temple/Puzzle_Sliding_Key.obj" type="ArrayMesh" id=60]
+[ext_resource path="res://Modular Temple/Puzzle_Sliding_Mirror.obj" type="ArrayMesh" id=61]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Rotating_Housing_Corner.obj" type="ArrayMesh" id=62]
+[ext_resource path="res://Modular Temple/Pillar_Large_Beam_Top.obj" type="ArrayMesh" id=63]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Control_Housing_Straight.obj" type="ArrayMesh" id=64]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Pillar_Conduit_Passthrough.obj" type="ArrayMesh" id=65]
+[ext_resource path="res://Modular Temple/Stairs_Coping_Ramp_Curved_Large.obj" type="ArrayMesh" id=66]
+[ext_resource path="res://Modular Temple/Stairs_Coping_Ramp_Curved_Small.obj" type="ArrayMesh" id=67]
+[ext_resource path="res://Modular Temple/Stairs_Coping_Ramp_Straight.obj" type="ArrayMesh" id=68]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Rotating_Platform_End.obj" type="ArrayMesh" id=69]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Rotating_Platform_Straight.obj" type="ArrayMesh" id=70]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Standard_TJoint.obj" type="ArrayMesh" id=71]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Emitter_Corner.obj" type="ArrayMesh" id=72]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Button_Cross.obj" type="ArrayMesh" id=73]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Button_End.obj" type="ArrayMesh" id=74]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Standard_End.obj" type="ArrayMesh" id=75]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Keyhole_Straight.obj" type="ArrayMesh" id=76]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Keyhole_Unconnected.obj" type="ArrayMesh" id=77]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Path_End.obj" type="ArrayMesh" id=78]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Path_Straight.obj" type="ArrayMesh" id=79]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Path_TJoint.obj" type="ArrayMesh" id=80]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Emitter_Straight.obj" type="ArrayMesh" id=81]
+[ext_resource path="res://Modular Temple/Tower_Center_Pillar.obj" type="ArrayMesh" id=82]
+[ext_resource path="res://Modular Temple/Tower_Landing.obj" type="ArrayMesh" id=83]
+[ext_resource path="res://Modular Temple/Tower_Decoration_Base.obj" type="ArrayMesh" id=84]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Indicator_1.obj" type="ArrayMesh" id=85]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Emitter_Unconnected.obj" type="ArrayMesh" id=86]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Button_Straight.obj" type="ArrayMesh" id=87]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Standard_Corner.obj" type="ArrayMesh" id=88]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Rotating_Platform_Unconnected.obj" type="ArrayMesh" id=89]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Rotating_Housing_Straight.obj" type="ArrayMesh" id=90]
+[ext_resource path="res://Modular Temple/Balcony_Railing_Tower.obj" type="ArrayMesh" id=91]
+[ext_resource path="res://Modular Temple/Tower_Steps.obj" type="ArrayMesh" id=92]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Rotating_Housing_Cross.obj" type="ArrayMesh" id=93]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Standard_Corner.obj" type="ArrayMesh" id=94]
+[ext_resource path="res://Modular Temple/Tower_Parapet_Braced_Crowned.obj" type="ArrayMesh" id=95]
+[ext_resource path="res://Modular Temple/Tower_Parapet_Simple_Crowned.obj" type="ArrayMesh" id=96]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Rotating_Platform_TJoint.obj" type="ArrayMesh" id=97]
+[ext_resource path="res://Modular Temple/Wall_Straight_Doorway_Large.obj" type="ArrayMesh" id=98]
+[ext_resource path="res://Modular Temple/Wall_Straight_Doorway_Large_Extension.obj" type="ArrayMesh" id=99]
+[ext_resource path="res://Modular Temple/Wall_Straight_Doorway_Large_Pocket.obj" type="ArrayMesh" id=100]
+[ext_resource path="res://Modular Temple/Wall_Straight_Door_Eclipse.obj" type="ArrayMesh" id=101]
+[ext_resource path="res://Modular Temple/Wall_Straight_Door_Large.obj" type="ArrayMesh" id=102]
+[ext_resource path="res://Modular Temple/Wall_Straight_Door_Large_Pocket.obj" type="ArrayMesh" id=103]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Emitter_Cross.obj" type="ArrayMesh" id=104]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Rotating_Housing_Cross.obj" type="ArrayMesh" id=105]
+[ext_resource path="res://Modular Temple/Tower_Top.obj" type="ArrayMesh" id=106]
+[ext_resource path="res://Modular Temple/Tower_Wall_Normal_Plain.obj" type="ArrayMesh" id=107]
+[ext_resource path="res://Modular Temple/Tower_Wall_Normal_Window.obj" type="ArrayMesh" id=108]
+[ext_resource path="res://Modular Temple/Tower_Wall_Normal_Windows.obj" type="ArrayMesh" id=109]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Keyhole_End.obj" type="ArrayMesh" id=110]
+[ext_resource path="res://Modular Temple/Stairs_Under_Ramp_Straight.obj" type="ArrayMesh" id=111]
+[ext_resource path="res://Modular Temple/Terrain_Water_Large.obj" type="ArrayMesh" id=112]
+[ext_resource path="res://Modular Temple/Tower_Bottom.obj" type="ArrayMesh" id=113]
+[ext_resource path="res://Modular Temple/Puzzle_Sliding_Platform_1x1.obj" type="ArrayMesh" id=114]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Rotating_Platform_Straight.obj" type="ArrayMesh" id=115]
+[ext_resource path="res://Modular Temple/Wall_Ruined_Full_Cracked_1.obj" type="ArrayMesh" id=116]
+[ext_resource path="res://Modular Temple/Wall_Ruined_Half_1.obj" type="ArrayMesh" id=117]
+[ext_resource path="res://Modular Temple/Wall_Ruined_Full_Cracked_2.obj" type="ArrayMesh" id=118]
+[ext_resource path="res://Modular Temple/Wall_Ruined_Half_2.obj" type="ArrayMesh" id=119]
+[ext_resource path="res://Modular Temple/Wall_Straight_Arch_Top.obj" type="ArrayMesh" id=120]
+[ext_resource path="res://Modular Temple/Wall_Straight_Base.obj" type="ArrayMesh" id=121]
+[ext_resource path="res://Modular Temple/Wall_Straight_Coping.obj" type="ArrayMesh" id=122]
+[ext_resource path="res://Modular Temple/Wall_Straight_Cubby.obj" type="ArrayMesh" id=123]
+[ext_resource path="res://Modular Temple/Wall_Straight_Door.obj" type="ArrayMesh" id=124]
+[ext_resource path="res://Modular Temple/Wall_Straight_Doorway.obj" type="ArrayMesh" id=125]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Keyhole_Cross.obj" type="ArrayMesh" id=126]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Keyhole_Corner.obj" type="ArrayMesh" id=127]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Path_Curved_Small_Outer.obj" type="ArrayMesh" id=128]
+[ext_resource path="res://Modular Temple/Stairs_Newel_Middle.obj" type="ArrayMesh" id=129]
+[ext_resource path="res://Modular Temple/Stairs_Newel_Base.obj" type="ArrayMesh" id=130]
+[ext_resource path="res://Modular Temple/Stairs_Steps_Straight.obj" type="ArrayMesh" id=131]
+[ext_resource path="res://Modular Temple/Stairs_Newel_Top.obj" type="ArrayMesh" id=132]
+[ext_resource path="res://Modular Temple/Stairs_Steps_Curved.obj" type="ArrayMesh" id=133]
+[ext_resource path="res://Modular Temple/Puzzle_Sliding_Platform_1x2.obj" type="ArrayMesh" id=134]
+[ext_resource path="res://Modular Temple/Stairs_Under_Ramp_Curved.obj" type="ArrayMesh" id=135]
+[ext_resource path="res://Modular Temple/Tower_Wall_Tall_Doorway.obj" type="ArrayMesh" id=136]
+[ext_resource path="res://Modular Temple/Tower_Wall_Tall_Window.obj" type="ArrayMesh" id=137]
+[ext_resource path="res://Modular Temple/Tower_Wall_Tall_Doorway_Base.obj" type="ArrayMesh" id=138]
+[ext_resource path="res://Modular Temple/Tower_Wall_Tall_Windows.obj" type="ArrayMesh" id=139]
+[ext_resource path="res://Modular Temple/Wall_Arch_Corner_Outer.obj" type="ArrayMesh" id=140]
+[ext_resource path="res://Modular Temple/Wall_Arch_Corner_Inner.obj" type="ArrayMesh" id=141]
+[ext_resource path="res://Modular Temple/Wall_Arch_Straight.obj" type="ArrayMesh" id=142]
+[ext_resource path="res://Modular Temple/Wall_Curved_Large_Base.obj" type="ArrayMesh" id=143]
+[ext_resource path="res://Modular Temple/Wall_Curved_Large_Coping.obj" type="ArrayMesh" id=144]
+[ext_resource path="res://Modular Temple/Wall_Curved_Large_Middle.obj" type="ArrayMesh" id=145]
+[ext_resource path="res://Modular Temple/Wall_Curved_Large_Top.obj" type="ArrayMesh" id=146]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Passthrough.obj" type="ArrayMesh" id=147]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Path_Corner.obj" type="ArrayMesh" id=148]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Passthrough_Base.obj" type="ArrayMesh" id=149]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Path_Cross.obj" type="ArrayMesh" id=150]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Path_Curved_Small_Inner.obj" type="ArrayMesh" id=151]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Standard_Straight.obj" type="ArrayMesh" id=152]
+[ext_resource path="res://Modular Temple/Prop_Vase.obj" type="ArrayMesh" id=153]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Wall_Conduit_Connector.obj" type="ArrayMesh" id=154]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Standard_TJoint.obj" type="ArrayMesh" id=155]
+[ext_resource path="res://Modular Temple/Puzzle_Closed_Conduit_Terminator.obj" type="ArrayMesh" id=156]
+[ext_resource path="res://Modular Temple/Puzzle_Closed_Conduit_Straight.obj" type="ArrayMesh" id=157]
+[ext_resource path="res://Modular Temple/Puzzle_Closed_Conduit_Control_Connector.obj" type="ArrayMesh" id=158]
+[ext_resource path="res://Modular Temple/Prop_Vase_2.obj" type="ArrayMesh" id=159]
+[ext_resource path="res://Modular Temple/Puzzle_Control_Pressure_Plate.obj" type="ArrayMesh" id=160]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Control_Housing_Corner.obj" type="ArrayMesh" id=161]
+[ext_resource path="res://Modular Temple/Prop_Vase_1.obj" type="ArrayMesh" id=162]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Emitter_End.obj" type="ArrayMesh" id=163]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Control_Housing_Cross.obj" type="ArrayMesh" id=164]
+[ext_resource path="res://Modular Temple/Puzzle_Control_Lever.obj" type="ArrayMesh" id=165]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Control_Housing_Unconnected.obj" type="ArrayMesh" id=166]
+[ext_resource path="res://Modular Temple/Floor_Ruined_Corner_Inner_1.obj" type="ArrayMesh" id=167]
+[ext_resource path="res://Modular Temple/Floor_Ruined_Corner_Inner_2.obj" type="ArrayMesh" id=168]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Rotating_Housing_TJoint.obj" type="ArrayMesh" id=169]
+[ext_resource path="res://Modular Temple/Puzzle_Control_Rising_Switch.obj" type="ArrayMesh" id=170]
+[ext_resource path="res://Modular Temple/Prop_Rug_Stars.obj" type="ArrayMesh" id=171]
+[ext_resource path="res://Modular Temple/Puzzle_Steps_Conduit.obj" type="ArrayMesh" id=172]
+[ext_resource path="res://Modular Temple/Puzzle_Sliding_Pillar_Platform_Top.obj" type="ArrayMesh" id=173]
+[ext_resource path="res://Modular Temple/Puzzle_Sliding_Base.obj" type="ArrayMesh" id=174]
+[ext_resource path="res://Modular Temple/Prop_Rug_Sun.obj" type="ArrayMesh" id=175]
+[ext_resource path="res://Modular Temple/Prop_Vase_3.obj" type="ArrayMesh" id=176]
+[ext_resource path="res://Modular Temple/Floor_Tower_Balcony.obj" type="ArrayMesh" id=177]
+[ext_resource path="res://Modular Temple/Pillar_Large_Arch.obj" type="ArrayMesh" id=178]
+[ext_resource path="res://Modular Temple/Pillar_Large_Beam.obj" type="ArrayMesh" id=179]
+[ext_resource path="res://Modular Temple/Prop_Rug_Eclipse.obj" type="ArrayMesh" id=180]
+[ext_resource path="res://Modular Temple/Floor_Ruined_Corner_Outer_1.obj" type="ArrayMesh" id=181]
+[ext_resource path="res://Modular Temple/Prop_Flag_Stars.obj" type="ArrayMesh" id=182]
+[ext_resource path="res://Modular Temple/Pillar_Large_Base.obj" type="ArrayMesh" id=183]
+[ext_resource path="res://Modular Temple/Pillar_Large_Top.obj" type="ArrayMesh" id=184]
+[ext_resource path="res://Modular Temple/Prop_Flag_3.obj" type="ArrayMesh" id=185]
+[ext_resource path="res://Modular Temple/Floor_Bridge_Ramp.obj" type="ArrayMesh" id=186]
+[ext_resource path="res://Modular Temple/Balcony_Railing_Bridge_Ramp.obj" type="ArrayMesh" id=187]
+[ext_resource path="res://Modular Temple/Balcony_Base_Tower.obj" type="ArrayMesh" id=188]
+[ext_resource path="res://Modular Temple/Floor_Ruined_Straight_2.obj" type="ArrayMesh" id=189]
+[ext_resource path="res://Modular Temple/Prop_Flag_Eclipse.obj" type="ArrayMesh" id=190]
+[ext_resource path="res://Modular Temple/Floor_Curved_Small.obj" type="ArrayMesh" id=191]
+[ext_resource path="res://Modular Temple/Puzzle_Wall_Conduit_Keyhole_TJoint.obj" type="ArrayMesh" id=192]
+[ext_resource path="res://Modular Temple/Balcony_Base_Straight.obj" type="ArrayMesh" id=193]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Control_Housing_TJoint.obj" type="ArrayMesh" id=194]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Rotating_Housing_Corner.obj" type="ArrayMesh" id=195]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Standard_Cross.obj" type="ArrayMesh" id=196]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Standard_Straight.obj" type="ArrayMesh" id=197]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Standard_Cross.obj" type="ArrayMesh" id=198]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Standard_End.obj" type="ArrayMesh" id=199]
+[ext_resource path="res://Modular Temple/Puzzle_Track_Rotating_Housing_End.obj" type="ArrayMesh" id=200]
+[ext_resource path="res://Modular Temple/Puzzle_Sliding_Platform_1x3.obj" type="ArrayMesh" id=201]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Conduit_Control_Housing_End.obj" type="ArrayMesh" id=202]
+[ext_resource path="res://Modular Temple/Prop_Rubble_2.obj" type="ArrayMesh" id=203]
+[ext_resource path="res://Modular Temple/Puzzle_Floor_Wall_Conduit_Connector_Base.obj" type="ArrayMesh" id=204]
+[ext_resource path="res://Modular Temple/Wall_Straight_Door_Moon.obj" type="ArrayMesh" id=205]
+[ext_resource path="res://Modular Temple/Wall_Straight_Door_Stars.obj" type="ArrayMesh" id=206]
+[ext_resource path="res://Modular Temple/Wall_Straight_Door_Sun.obj" type="ArrayMesh" id=207]
+[ext_resource path="res://Modular Temple/Wall_Straight_Middle.obj" type="ArrayMesh" id=208]
+[ext_resource path="res://Modular Temple/Wall_Straight_Window.obj" type="ArrayMesh" id=209]
+[ext_resource path="res://Modular Temple/Wall_Straight_Top.obj" type="ArrayMesh" id=210]
+[ext_resource path="res://Modular Temple/Wall_Straight_Windows.obj" type="ArrayMesh" id=211]
+[ext_resource path="res://Modular Temple/Wall_Straight_Window_Tall.obj" type="ArrayMesh" id=212]
+[ext_resource path="res://Modular Temple/Wall_Straight_Windows_Tall.obj" type="ArrayMesh" id=213]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0.843137, 0.592157, 0.247059, 1 )
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_color = Color( 0.772549, 0.588235, 0.32549, 1 )
+
+[sub_resource type="SpatialMaterial" id=3]
+albedo_color = Color( 0.898039, 0.74902, 0.552941, 1 )
+
+[sub_resource type="ConcavePolygonShape" id=4]
+data = PoolVector3Array( -1.6, -0.1, 0.5, -1.6, -0.1, -0.5, -1.6685, 0.2444, -0.5, -1.6685, 0.2444, 0.5, -1.6, -0.1, 0.5, -1.6685, 0.2444, -0.5, -1.6, -0.2, 0.5, -1.6, -0.2, -0.5, -1.6, -0.1, 0.5, -1.6, -0.1, 0.5, -1.6, -0.2, -0.5, -1.6, -0.1, -0.5, -1.6, -0.2, 0.5, -1.56, -0.2, 0.5, -1.56, -0.2, -0.5, -1.56, -0.2, -0.5, 0.4, -0.2, 0.5, 0.4, -0.2, -0.5, 0.4, -0.2, 0.5, 0.5, -0.2, 0.5, 0.5, -0.2, -0.5, 0.4, -0.2, -0.5, 0.4, -0.2, 0.5, 0.5, -0.2, -0.5, -1.6, -0.2, -0.5, -1.6, -0.2, 0.5, -1.56, -0.2, -0.5, -1.56, -0.2, 0.5, 0.4, -0.2, 0.5, -1.56, -0.2, -0.5, 0.5, 0, -0.5, 0.5, -0.2, -0.5, 0.5, 0, 0.5, 0.5, 0, 0.5, 0.5, -0.2, -0.5, 0.5, -0.2, 0.5, 0.4, 0, -0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, 0.4, 0, 0.5, 0.4, 0, -0.5, 0.5, 0, 0.5, -0.0667, 0.0741, 0.5, -0.0667, 0.0741, -0.5, 0.4, 0, 0.5, 0.4, 0, 0.5, -0.0667, 0.0741, -0.5, 0.4, 0, -0.5, -0.5333, 0.2593, 0.5, -0.5333, 0.2593, -0.5, -0.0667, 0.0741, 0.5, -0.0667, 0.0741, 0.5, -0.5333, 0.2593, -0.5, -0.0667, 0.0741, -0.5, -1.4667, 0.7407, 0.5, -1.4667, 0.7407, -0.5, -0.5333, 0.2593, 0.5, -0.5333, 0.2593, 0.5, -1.4667, 0.7407, -0.5, -0.5333, 0.2593, -0.5, -1.9333, 0.9259, 0.5, -1.9333, 0.9259, -0.5, -1.4667, 0.7407, 0.5, -1.4667, 0.7407, 0.5, -1.9333, 0.9259, -0.5, -1.4667, 0.7407, -0.5, -2.4, 1, 0.5, -2.4, 1, -0.5, -1.9333, 0.9259, 0.5, -1.9333, 0.9259, 0.5, -2.4, 1, -0.5, -1.9333, 0.9259, -0.5, -2.4, 1, 0.5, -2.5, 1, 0.5, -2.4, 1, -0.5, -2.4, 1, -0.5, -2.5, 1, 0.5, -2.5, 1, -0.5, -2.5, 0.8, -0.5, -2.5, 1, -0.5, -2.5, 0.8, 0.5, -2.5, 0.8, 0.5, -2.5, 1, -0.5, -2.5, 1, 0.5, -2.1556, 0.7315, 0.5, -2.1556, 0.7315, -0.5, -2.5, 0.8, 0.5, -2.5, 0.8, 0.5, -2.1556, 0.7315, -0.5, -2.5, 0.8, -0.5, -1.8636, 0.5364, 0.5, -1.8636, 0.5364, -0.5, -2.1556, 0.7315, -0.5, -2.1556, 0.7315, 0.5, -1.8636, 0.5364, 0.5, -2.1556, 0.7315, -0.5, -1.6, -0.2, -0.5, -1.56, -0.2, -0.5, -1.6, -0.1, -0.5, -0.5333, 0.2593, -0.5, -1.6, -0.1, -0.5, -0.0667, 0.0741, -0.5, 0.4, 0, -0.5, -0.0667, 0.0741, -0.5, 0.4, -0.2, -0.5, 0.5, -0.2, -0.5, 0.5, 0, -0.5, 0.4, -0.2, -0.5, 0.5, 0, -0.5, 0.4, 0, -0.5, 0.4, -0.2, -0.5, -1.4667, 0.7407, -0.5, -1.6, -0.1, -0.5, -0.5333, 0.2593, -0.5, -1.8636, 0.5364, -0.5, -1.6685, 0.2444, -0.5, -1.4667, 0.7407, -0.5, -2.1556, 0.7315, -0.5, -1.8636, 0.5364, -0.5, -1.9333, 0.9259, -0.5, -2.4, 1, -0.5, -2.1556, 0.7315, -0.5, -1.9333, 0.9259, -0.5, -2.5, 1, -0.5, -2.5, 0.8, -0.5, -2.4, 1, -0.5, -2.5, 0.8, -0.5, -2.1556, 0.7315, -0.5, -2.4, 1, -0.5, -1.9333, 0.9259, -0.5, -1.8636, 0.5364, -0.5, -1.4667, 0.7407, -0.5, -1.6685, 0.2444, -0.5, -1.6, -0.1, -0.5, -1.4667, 0.7407, -0.5, -1.56, -0.2, -0.5, -0.0667, 0.0741, -0.5, -1.6, -0.1, -0.5, 0.4, -0.2, -0.5, -0.0667, 0.0741, -0.5, -1.56, -0.2, -0.5, -1.6685, 0.2444, 0.5, -1.6685, 0.2444, -0.5, -1.8636, 0.5364, -0.5, -1.8636, 0.5364, 0.5, -1.6685, 0.2444, 0.5, -1.8636, 0.5364, -0.5, -1.6, -0.2, 0.5, -1.6, -0.1, 0.5, -1.56, -0.2, 0.5, 0.4, -0.2, 0.5, -1.56, -0.2, 0.5, -0.0667, 0.0741, 0.5, 0.4, 0, 0.5, 0.4, -0.2, 0.5, -0.0667, 0.0741, 0.5, 0.5, 0, 0.5, 0.4, -0.2, 0.5, 0.4, 0, 0.5, 0.5, -0.2, 0.5, 0.4, -0.2, 0.5, 0.5, 0, 0.5, -1.56, -0.2, 0.5, -1.6, -0.1, 0.5, -0.0667, 0.0741, 0.5, -0.5333, 0.2593, 0.5, -0.0667, 0.0741, 0.5, -1.6, -0.1, 0.5, -1.4667, 0.7407, 0.5, -0.5333, 0.2593, 0.5, -1.6, -0.1, 0.5, -1.8636, 0.5364, 0.5, -1.4667, 0.7407, 0.5, -1.6685, 0.2444, 0.5, -2.1556, 0.7315, 0.5, -1.9333, 0.9259, 0.5, -1.8636, 0.5364, 0.5, -2.5, 0.8, 0.5, -2.4, 1, 0.5, -2.1556, 0.7315, 0.5, -2.5, 1, 0.5, -2.4, 1, 0.5, -2.5, 0.8, 0.5, -2.4, 1, 0.5, -1.9333, 0.9259, 0.5, -2.1556, 0.7315, 0.5, -1.9333, 0.9259, 0.5, -1.4667, 0.7407, 0.5, -1.8636, 0.5364, 0.5, -1.6685, 0.2444, 0.5, -1.4667, 0.7407, 0.5, -1.6, -0.1, 0.5 )
+
+[sub_resource type="ConvexPolygonShape" id=5]
+points = PoolVector3Array( 0.5, -0.2, -0.5, 0.5, -0.2, 0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, 0.5, -0.2, -0.5, -0.5, -0.2, -0.5, 0.5, -0.2, 0.5, -0.5, -0.2, 0.5, -0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, -0.2, 0.5, -0.5, -0.2, -0.5, -0.5, 0, 0.5, 0.5, 0, 0.5, 0.5, -0.2, 0.5, -0.5, -0.2, 0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, 0, -0.5, -0.5, 0, -0.5, -0.5, -0.2, -0.5, 0.5, -0.2, -0.5, -0.5, 0, -0.5, 0.5, 0, -0.5 )
+
+[sub_resource type="ConvexPolygonShape" id=6]
+points = PoolVector3Array( -0.45, 1.2, 1.5, -0.4, 1.15, 1.5, -0.546985, 1.2, 1.5, -0.6, 1.15, 1.5, -0.6, 0, 1.5, -0.4, 0, 1.5, -0.4, 0, 1.5, -0.4, 1.15, 1.5, -0.4, 0.15, -0.5, -0.4, 0, -0.5, -0.45, 0.2, -0.5, -0.546985, 0.2, -0.5, -0.4, 0.15, -0.5, -0.6, 0.15, -0.5, -0.4, 0, -0.5, -0.6, 0, -0.5, -0.4, 0, -0.5, -0.6, 0, -0.5, -0.4, 0, 1.5, -0.6, 0, 1.5, -0.6, 0, -0.5, -0.6, 0.15, -0.5, -0.6, 0, 1.5, -0.6, 1.15, 1.5, -0.6, 1.15, 1.5, -0.6, 0.15, -0.5, -0.546985, 0.2, -0.5, -0.546985, 1.2, 1.5, -0.546985, 1.2, 1.5, -0.546985, 0.2, -0.5, -0.45, 1.2, 1.5, -0.45, 0.2, -0.5, -0.45, 1.2, 1.5, -0.45, 0.2, -0.5, -0.4, 1.15, 1.5, -0.4, 0.15, -0.5 )
+
+[sub_resource type="ConcavePolygonShape" id=7]
+data = PoolVector3Array( 0.4, 0.075, -0.4, 0.4, 0, -0.4, 0.4, 0.1, -0.375, 0.4, 0, -0.4, 0.4, -0.15, -0.5, 0.4, 0.1, -0.2, 0.4, 0.2, -0.175, 0.4, 0.1, -0.2, 0.4, 0.2, 0, 0.4, 0.3, 0.025, 0.4, 0.2, 0, 0.4, 0.3, 0.2, 0.4, 0.4, 0.225, 0.4, 0.3, 0.2, 0.4, 0.4, 0.4, 0.4, 0.5, 0.6, 0.4, 0.4, 0.4, 0.4, 0.85, 1.5, 0.4, 0.7, 1, 0.4, 0.6, 0.8, 0.4, 0.85, 1.5, 0.4, 0.8, 1.025, 0.4, 0.7, 1, 0.4, 0.8, 1.2, 0.4, 0.9, 1.225, 0.4, 0.8, 1.2, 0.4, 0.9, 1.4, 0.4, 1, 1.425, 0.4, 0.9, 1.4, 0.4, 1, 1.5, 0.4, 0.975, 1.4, 0.4, 0.9, 1.4, 0.4, 1, 1.425, 0.4, 0.875, 1.2, 0.4, 0.8, 1.2, 0.4, 0.9, 1.225, 0.4, 0.775, 1, 0.4, 0.7, 1, 0.4, 0.8, 1.025, 0.4, 0.7, 0.825, 0.4, 0.6, 0.8, 0.4, 0.7, 1, 0.4, 0.675, 0.8, 0.4, 0.6, 0.8, 0.4, 0.7, 0.825, 0.4, 0.8, 1.2, 0.4, 0.7, 1, 0.4, 0.85, 1.5, 0.4, 0.9, 1.4, 0.4, 0.8, 1.2, 0.4, 0.85, 1.5, 0.4, 1, 1.5, 0.4, 0.9, 1.4, 0.4, 0.85, 1.5, 0.4, 0.6, 0.8, 0.4, 0.5, 0.6, 0.4, 0.85, 1.5, 0.4, 0.6, 0.625, 0.4, 0.5, 0.6, 0.4, 0.6, 0.8, 0.4, 0.575, 0.6, 0.4, 0.5, 0.6, 0.4, 0.6, 0.625, 0.4, 0.5, 0.425, 0.4, 0.4, 0.4, 0.4, 0.5, 0.6, 0.4, 0.475, 0.4, 0.4, 0.4, 0.4, 0.4, 0.5, 0.425, 0.4, 0.375, 0.2, 0.4, 0.3, 0.2, 0.4, 0.4, 0.225, 0.4, 0.275, 0, 0.4, 0.2, 0, 0.4, 0.3, 0.025, 0.4, 0.175, -0.2, 0.4, 0.1, -0.2, 0.4, 0.2, -0.175, 0.4, 0.85, 1.5, 0.4, 0.4, 0.4, 0.4, -0.15, -0.5, 0.4, 0.3, 0.2, 0.4, -0.15, -0.5, 0.4, 0.4, 0.4, 0.4, 0.2, 0, 0.4, -0.15, -0.5, 0.4, 0.3, 0.2, 0.4, 0.1, -0.2, 0.4, -0.15, -0.5, 0.4, 0.2, 0, 0.4, 0.1, -0.375, 0.4, 0, -0.4, 0.4, 0.1, -0.2, 0.4, 0, -0.5, 0.4, -0.15, -0.5, 0.4, 0, -0.4, 0.4, 0.85, 1.5, -0.4, 0.85, 1.5, -0.4, 1, 1.5, 0.4, 1, 1.5, 0.4, 0.85, 1.5, -0.4, 1, 1.5, -0.4, 0.075, -0.4, -0.4, 0.1, -0.375, -0.4, 0, -0.4, -0.4, 0, -0.4, -0.4, 0.1, -0.2, -0.4, -0.15, -0.5, -0.4, 0.85, 1.5, -0.4, -0.15, -0.5, -0.4, 0.4, 0.4, -0.4, 0.4, 0.225, -0.4, 0.4, 0.4, -0.4, 0.3, 0.2, -0.4, 0.3, 0.025, -0.4, 0.3, 0.2, -0.4, 0.2, 0, -0.4, 0.275, 0, -0.4, 0.3, 0.025, -0.4, 0.2, 0, -0.4, 0.375, 0.2, -0.4, 0.4, 0.225, -0.4, 0.3, 0.2, -0.4, 0.5, 0.425, -0.4, 0.5, 0.6, -0.4, 0.4, 0.4, -0.4, 0.6, 0.625, -0.4, 0.6, 0.8, -0.4, 0.5, 0.6, -0.4, 0.7, 0.825, -0.4, 0.7, 1, -0.4, 0.6, 0.8, -0.4, 0.8, 1.025, -0.4, 0.8, 1.2, -0.4, 0.7, 1, -0.4, 0.9, 1.225, -0.4, 0.9, 1.4, -0.4, 0.8, 1.2, -0.4, 1, 1.425, -0.4, 1, 1.5, -0.4, 0.9, 1.4, -0.4, 0.975, 1.4, -0.4, 1, 1.425, -0.4, 0.9, 1.4, -0.4, 0.875, 1.2, -0.4, 0.9, 1.225, -0.4, 0.8, 1.2, -0.4, 0.775, 1, -0.4, 0.8, 1.025, -0.4, 0.7, 1, -0.4, 0.675, 0.8, -0.4, 0.7, 0.825, -0.4, 0.6, 0.8, -0.4, 0.575, 0.6, -0.4, 0.6, 0.625, -0.4, 0.5, 0.6, -0.4, 0.475, 0.4, -0.4, 0.5, 0.425, -0.4, 0.4, 0.4, -0.4, 0.5, 0.6, -0.4, 0.85, 1.5, -0.4, 0.4, 0.4, -0.4, 0.6, 0.8, -0.4, 0.85, 1.5, -0.4, 0.5, 0.6, -0.4, 0.7, 1, -0.4, 0.85, 1.5, -0.4, 0.6, 0.8, -0.4, 0.8, 1.2, -0.4, 0.85, 1.5, -0.4, 0.7, 1, -0.4, 0.9, 1.4, -0.4, 0.85, 1.5, -0.4, 0.8, 1.2, -0.4, 1, 1.5, -0.4, 0.85, 1.5, -0.4, 0.9, 1.4, -0.4, 0.3, 0.2, -0.4, 0.4, 0.4, -0.4, -0.15, -0.5, -0.4, 0.2, 0, -0.4, 0.3, 0.2, -0.4, -0.15, -0.5, -0.4, 0.1, -0.2, -0.4, 0.2, 0, -0.4, -0.15, -0.5, -0.4, 0.2, -0.175, -0.4, 0.2, 0, -0.4, 0.1, -0.2, -0.4, 0.175, -0.2, -0.4, 0.2, -0.175, -0.4, 0.1, -0.2, -0.4, 0, -0.5, -0.4, 0, -0.4, -0.4, -0.15, -0.5, -0.4, 0.1, -0.375, -0.4, 0.1, -0.2, -0.4, 0, -0.4, -0.4, 1, 1.425, 0.4, 1, 1.425, 0.4, 1, 1.5, -0.4, 1, 1.5, -0.4, 1, 1.425, 0.4, 1, 1.5, 0.4, 1, 1.425, -0.4, 1, 1.425, 0.4, 0.975, 1.4, 0.4, 0.975, 1.4, -0.4, 1, 1.425, -0.4, 0.975, 1.4, 0.4, 0.975, 1.4, -0.4, 0.975, 1.4, -0.4, 0.9, 1.4, 0.4, 0.9, 1.4, 0.4, 0.975, 1.4, -0.4, 0.9, 1.4, -0.4, 0.9, 1.225, 0.4, 0.9, 1.225, 0.4, 0.9, 1.4, -0.4, 0.9, 1.4, -0.4, 0.9, 1.225, 0.4, 0.9, 1.4, 0.4, 0.9, 1.225, -0.4, 0.9, 1.225, 0.4, 0.875, 1.2, 0.4, 0.875, 1.2, -0.4, 0.9, 1.225, -0.4, 0.875, 1.2, 0.4, 0.875, 1.2, -0.4, 0.875, 1.2, 0.4, 0.8, 1.2, 0.4, 0.8, 1.2, -0.4, 0.875, 1.2, -0.4, 0.8, 1.2, -0.4, 0.8, 1.025, 0.4, 0.8, 1.025, 0.4, 0.8, 1.2, -0.4, 0.8, 1.2, -0.4, 0.8, 1.025, 0.4, 0.8, 1.2, 0.4, 0.8, 1.025, -0.4, 0.8, 1.025, 0.4, 0.775, 1, 0.4, 0.775, 1, -0.4, 0.8, 1.025, -0.4, 0.775, 1, 0.4, 0.775, 1, -0.4, 0.775, 1, 0.4, 0.7, 1, 0.4, 0.7, 1, -0.4, 0.775, 1, -0.4, 0.7, 1, -0.4, 0.7, 0.825, 0.4, 0.7, 0.825, 0.4, 0.7, 1, -0.4, 0.7, 1, -0.4, 0.7, 0.825, 0.4, 0.7, 1, 0.4, 0.7, 0.825, -0.4, 0.7, 0.825, 0.4, 0.675, 0.8, 0.4, 0.675, 0.8, -0.4, 0.7, 0.825, -0.4, 0.675, 0.8, 0.4, 0.675, 0.8, -0.4, 0.675, 0.8, -0.4, 0.6, 0.8, 0.4, 0.6, 0.8, 0.4, 0.675, 0.8, -0.4, 0.6, 0.8, -0.4, 0.6, 0.625, 0.4, 0.6, 0.625, 0.4, 0.6, 0.8, -0.4, 0.6, 0.8, -0.4, 0.6, 0.625, 0.4, 0.6, 0.8, 0.4, 0.6, 0.625, -0.4, 0.6, 0.625, 0.4, 0.575, 0.6, 0.4, 0.575, 0.6, -0.4, 0.6, 0.625, -0.4, 0.575, 0.6, 0.4, 0.575, 0.6, -0.4, 0.575, 0.6, 0.4, 0.5, 0.6, 0.4, 0.5, 0.6, -0.4, 0.575, 0.6, -0.4, 0.5, 0.6, -0.4, 0.5, 0.425, 0.4, 0.5, 0.425, 0.4, 0.5, 0.6, -0.4, 0.5, 0.6, -0.4, 0.5, 0.425, 0.4, 0.5, 0.6, 0.4, 0.5, 0.425, -0.4, 0.5, 0.425, 0.4, 0.475, 0.4, 0.4, 0.475, 0.4, -0.4, 0.5, 0.425, -0.4, 0.475, 0.4, 0.4, 0.475, 0.4, -0.4, 0.475, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, -0.4, 0.475, 0.4, -0.4, 0.4, 0.4, -0.4, 0.4, 0.225, 0.4, 0.4, 0.225, 0.4, 0.4, 0.4, -0.4, 0.4, 0.4, -0.4, 0.4, 0.225, 0.4, 0.4, 0.4, 0.4, 0.4, 0.225, -0.4, 0.4, 0.225, 0.4, 0.375, 0.2, 0.4, 0.375, 0.2, -0.4, 0.4, 0.225, -0.4, 0.375, 0.2, 0.4, 0.375, 0.2, -0.4, 0.375, 0.2, -0.4, 0.3, 0.2, 0.4, 0.3, 0.2, 0.4, 0.375, 0.2, -0.4, 0.3, 0.2, -0.4, 0.3, 0.025, 0.4, 0.3, 0.025, 0.4, 0.3, 0.2, -0.4, 0.3, 0.2, -0.4, 0.3, 0.025, 0.4, 0.3, 0.2, 0.4, 0.3, 0.025, -0.4, 0.3, 0.025, 0.4, 0.275, 0, 0.4, 0.275, 0, -0.4, 0.3, 0.025, -0.4, 0.275, 0, 0.4, 0.275, 0, -0.4, 0.275, 0, -0.4, 0.2, 0, 0.4, 0.2, 0, 0.4, 0.275, 0, -0.4, 0.2, 0, -0.4, 0.2, -0.175, 0.4, 0.2, -0.175, 0.4, 0.2, 0, -0.4, 0.2, 0, -0.4, 0.2, -0.175, 0.4, 0.2, 0, 0.4, 0.2, -0.175, -0.4, 0.2, -0.175, 0.4, 0.175, -0.2, 0.4, 0.175, -0.2, -0.4, 0.2, -0.175, -0.4, 0.175, -0.2, 0.4, 0.175, -0.2, -0.4, 0.175, -0.2, -0.4, 0.1, -0.2, 0.4, 0.1, -0.2, 0.4, 0.175, -0.2, -0.4, 0.1, -0.2, -0.4, 0.1, -0.375, 0.4, 0.1, -0.375, 0.4, 0.1, -0.2, -0.4, 0.1, -0.2, -0.4, 0.1, -0.375, 0.4, 0.1, -0.2, 0.4, 0.1, -0.375, -0.4, 0.1, -0.375, 0.4, 0.075, -0.4, 0.4, 0.075, -0.4, -0.4, 0.1, -0.375, -0.4, 0.075, -0.4, 0.4, 0.075, -0.4, -0.4, 0.075, -0.4, -0.4, 0, -0.4, 0.4, 0, -0.4, 0.4, 0.075, -0.4, -0.4, 0, -0.4, -0.4, 0, -0.5, 0.4, 0, -0.5, 0.4, 0, -0.4, -0.4, 0, -0.4, -0.4, 0, -0.5, 0.4, 0, -0.4, -0.4, -0.15, -0.5, 0.4, -0.15, -0.5, 0.4, 0, -0.5, -0.4, 0, -0.5, -0.4, -0.15, -0.5, 0.4, 0, -0.5, -0.4, -0.15, -0.5, -0.4, 0.85, 1.5, 0.4, -0.15, -0.5, 0.4, -0.15, -0.5, -0.4, 0.85, 1.5, 0.4, 0.85, 1.5 )
+
+[sub_resource type="ConcavePolygonShape" id=8]
+data = PoolVector3Array( 0.5, 0.9, 0.4, 0.5, 1.2444, 0.3315, -0.5, 1.2444, 0.3315, -0.5, 0.9, 0.4, 0.5, 0.9, 0.4, -0.5, 1.2444, 0.3315, 0.5, 1.2444, 0.3315, 0.5, 1.5364, 0.1364, -0.5, 1.5364, 0.1364, -0.5, 1.2444, 0.3315, 0.5, 1.2444, 0.3315, -0.5, 1.5364, 0.1364, 0.5, 1.5364, 0.1364, 0.5, 1.7315, -0.1556, -0.5, 1.7315, -0.1556, -0.5, 1.5364, 0.1364, 0.5, 1.5364, 0.1364, -0.5, 1.7315, -0.1556, 0.5, 1.7315, -0.1556, 0.5, 1.8, -0.5, -0.5, 1.8, -0.5, -0.5, 1.7315, -0.1556, 0.5, 1.7315, -0.1556, -0.5, 1.8, -0.5, -0.5, 2, -0.5, 0.5, 2, -0.5, 0.5, 2, 0.6, -0.5, 2, 0.6, -0.5, 2, -0.5, 0.5, 2, 0.6, 0.5, 0, 0.6, -0.5, 0, 0.6, 0.5, 2, 0.6, 0.5, 2, 0.6, -0.5, 0, 0.6, -0.5, 2, 0.6, 0.5, 1.8, -0.5, 0.5, 1.7315, -0.1556, 0.5, 2, -0.5, 0.5, 1.7315, -0.1556, 0.5, 1.5364, 0.1364, 0.5, 2, 0.6, 0.5, 0.9, 0.4, 0.5, 2, 0.6, 0.5, 1.2444, 0.3315, 0.5, 0, 0.4, 0.5, 0, 0.6, 0.5, 0.9, 0.4, 0.5, 0, 0.6, 0.5, 2, 0.6, 0.5, 0.9, 0.4, 0.5, 1.5364, 0.1364, 0.5, 1.2444, 0.3315, 0.5, 2, 0.6, 0.5, 2, -0.5, 0.5, 1.7315, -0.1556, 0.5, 2, 0.6, -0.5, 1.8, -0.5, -0.5, 2, -0.5, -0.5, 1.7315, -0.1556, -0.5, 1.7315, -0.1556, -0.5, 2, 0.6, -0.5, 1.5364, 0.1364, -0.5, 0.9, 0.4, -0.5, 1.2444, 0.3315, -0.5, 2, 0.6, -0.5, 0, 0.4, -0.5, 0.9, 0.4, -0.5, 0, 0.6, -0.5, 0, 0.6, -0.5, 0.9, 0.4, -0.5, 2, 0.6, -0.5, 1.5364, 0.1364, -0.5, 2, 0.6, -0.5, 1.2444, 0.3315, -0.5, 2, -0.5, -0.5, 2, 0.6, -0.5, 1.7315, -0.1556, -0.5, 0, 0.4, 0.5, 0, 0.4, -0.5, 0.9, 0.4, -0.5, 0.9, 0.4, 0.5, 0, 0.4, 0.5, 0.9, 0.4, 0.5, 0, 0.4, -0.5, 0, 0.4, 0.5, 0, 0.6, 0.5, 0, 0.6, -0.5, 0, 0.4, -0.5, 0, 0.6, -0.5, 1.8, -0.5, 0.5, 1.8, -0.5, 0.5, 2, -0.5, -0.5, 2, -0.5, -0.5, 1.8, -0.5, 0.5, 2, -0.5 )
+
+[sub_resource type="ConcavePolygonShape" id=9]
+data = PoolVector3Array( -0.0657, 0.5657, 0.6, -0.0657, 0.5657, -0.6, -0.2391, 0.3061, -0.6, -0.2391, 0.3061, 0.6, -0.0657, 0.5657, 0.6, -0.2391, 0.3061, -0.6, 0.1939, 0.7391, 0.6, 0.1939, 0.7391, -0.6, -0.0657, 0.5657, -0.6, -0.0657, 0.5657, 0.6, 0.1939, 0.7391, 0.6, -0.0657, 0.5657, -0.6, 0.5, 0.8, 0.6, 0.5, 0.8, -0.6, 0.1939, 0.7391, -0.6, 0.1939, 0.7391, 0.6, 0.5, 0.8, 0.6, 0.1939, 0.7391, -0.6, 0.5, 1, 0.6, 0.5, 1, -0.6, 0.5, 0.8, 0.6, 0.5, 0.8, 0.6, 0.5, 1, -0.6, 0.5, 0.8, -0.6, -0.5, 1, 0.6, -0.5, 1, -0.6, 0.5, 1, 0.6, 0.5, 1, 0.6, -0.5, 1, -0.6, 0.5, 1, -0.6, -0.5, 0, 0.6, -0.5, 0, -0.6, -0.5, 1, -0.6, -0.5, 1, 0.6, -0.5, 0, 0.6, -0.5, 1, -0.6, -0.3, 0, 0.6, -0.3, 0, -0.6, -0.5, 0, -0.6, -0.5, 0, 0.6, -0.3, 0, 0.6, -0.5, 0, -0.6, 0.5, 0.8, -0.6, 0.5, 1, -0.6, 0.1939, 0.7391, -0.6, 0.1939, 0.7391, -0.6, -0.5, 1, -0.6, -0.0657, 0.5657, -0.6, -0.5, 0, -0.6, -0.2391, 0.3061, -0.6, -0.5, 1, -0.6, -0.3, 0, -0.6, -0.2391, 0.3061, -0.6, -0.5, 0, -0.6, -0.0657, 0.5657, -0.6, -0.5, 1, -0.6, -0.2391, 0.3061, -0.6, 0.5, 1, -0.6, -0.5, 1, -0.6, 0.1939, 0.7391, -0.6, -0.2391, 0.3061, 0.6, -0.2391, 0.3061, -0.6, -0.3, 0, -0.6, -0.3, 0, 0.6, -0.2391, 0.3061, 0.6, -0.3, 0, -0.6, 0.5, 0.8, 0.6, 0.1939, 0.7391, 0.6, 0.5, 1, 0.6, 0.1939, 0.7391, 0.6, -0.0657, 0.5657, 0.6, -0.5, 1, 0.6, -0.5, 0, 0.6, -0.5, 1, 0.6, -0.2391, 0.3061, 0.6, -0.3, 0, 0.6, -0.5, 0, 0.6, -0.2391, 0.3061, 0.6, -0.0657, 0.5657, 0.6, -0.2391, 0.3061, 0.6, -0.5, 1, 0.6, 0.5, 1, 0.6, 0.1939, 0.7391, 0.6, -0.5, 1, 0.6 )
+
+[sub_resource type="ConcavePolygonShape" id=10]
+data = PoolVector3Array( -0.5, 1.4709, 0.4, -0.5, 1.4709, 0.6, -0.4243, 1.5843, 0.4, -0.4243, 1.5843, 0.4, -0.5, 1.4709, 0.6, -0.4243, 1.5843, 0.6, -0.5, 2, 0.4, -0.5, 2, 0.6, -0.5, 1.4709, 0.6, -0.5, 1.4709, 0.4, -0.5, 2, 0.4, -0.5, 1.4709, 0.6, 0.5, 2, 0.4, 0.5, 2, 0.6, -0.5, 2, 0.6, -0.5, 2, 0.4, 0.5, 2, 0.4, -0.5, 2, 0.6, 0.5, 1.4709, 0.4, 0.5, 1.4709, 0.6, 0.5, 2, 0.6, 0.5, 2, 0.4, 0.5, 1.4709, 0.4, 0.5, 2, 0.6, 0.5, 1.4709, 0.6, 0.5, 1.4709, 0.4, 0.4243, 1.5843, 0.4, 0.4243, 1.5843, 0.6, 0.5, 1.4709, 0.6, 0.4243, 1.5843, 0.4, 0.4243, 1.5843, 0.6, 0.4243, 1.5843, 0.4, 0.2296, 1.7143, 0.4, 0.2296, 1.7143, 0.6, 0.4243, 1.5843, 0.6, 0.2296, 1.7143, 0.4, 0.2296, 1.7143, 0.6, 0.2296, 1.7143, 0.4, 0, 1.76, 0.4, 0, 1.76, 0.6, 0.2296, 1.7143, 0.6, 0, 1.76, 0.4, 0, 1.76, 0.6, 0, 1.76, 0.4, -0.2296, 1.7143, 0.4, -0.2296, 1.7143, 0.6, 0, 1.76, 0.6, -0.2296, 1.7143, 0.4, -0.5, 1.4709, 0.6, -0.5, 2, 0.6, -0.4243, 1.5843, 0.6, -0.5, 2, 0.6, 0.5, 2, 0.6, 0, 1.76, 0.6, 0.2296, 1.7143, 0.6, 0, 1.76, 0.6, 0.5, 2, 0.6, 0.4243, 1.5843, 0.6, 0.2296, 1.7143, 0.6, 0.5, 2, 0.6, 0.5, 1.4709, 0.6, 0.4243, 1.5843, 0.6, 0.5, 2, 0.6, -0.2296, 1.7143, 0.6, -0.5, 2, 0.6, 0, 1.76, 0.6, -0.4243, 1.5843, 0.6, -0.5, 2, 0.6, -0.2296, 1.7143, 0.6, -0.2296, 1.7143, 0.6, -0.2296, 1.7143, 0.4, -0.4243, 1.5843, 0.4, -0.4243, 1.5843, 0.6, -0.2296, 1.7143, 0.6, -0.4243, 1.5843, 0.4, -0.5, 1.4709, 0.4, -0.4243, 1.5843, 0.4, -0.5, 2, 0.4, -0.5, 2, 0.4, 0, 1.76, 0.4, 0.5, 2, 0.4, 0.4243, 1.5843, 0.4, 0.5, 2, 0.4, 0.2296, 1.7143, 0.4, 0.5, 1.4709, 0.4, 0.5, 2, 0.4, 0.4243, 1.5843, 0.4, 0.2296, 1.7143, 0.4, 0.5, 2, 0.4, 0, 1.76, 0.4, -0.2296, 1.7143, 0.4, 0, 1.76, 0.4, -0.5, 2, 0.4, -0.4243, 1.5843, 0.4, -0.2296, 1.7143, 0.4, -0.5, 2, 0.4, 0, 1.76, 0.65, 0, 1.76, 0.35, 0.2296, 1.7143, 0.65, 0.2296, 1.7143, 0.65, 0, 1.76, 0.35, 0.2296, 1.7143, 0.35, -0.2296, 1.7143, 0.65, -0.2296, 1.7143, 0.35, 0, 1.76, 0.65, 0, 1.76, 0.65, -0.2296, 1.7143, 0.35, 0, 1.76, 0.35, -0.4243, 1.5843, 0.65, -0.4243, 1.5843, 0.35, -0.2296, 1.7143, 0.65, -0.2296, 1.7143, 0.65, -0.4243, 1.5843, 0.35, -0.2296, 1.7143, 0.35, -0.5543, 1.3896, 0.65, -0.5543, 1.3896, 0.35, -0.4243, 1.5843, 0.65, -0.4243, 1.5843, 0.65, -0.5543, 1.3896, 0.35, -0.4243, 1.5843, 0.35, -0.6, 1.16, 0.65, -0.6, 1.16, 0.35, -0.5543, 1.3896, 0.65, -0.5543, 1.3896, 0.65, -0.6, 1.16, 0.35, -0.5543, 1.3896, 0.35, -0.6, 1.16, 0.65, -0.6, 0, 0.65, -0.6, 0, 0.35, -0.6, 1.16, 0.35, -0.6, 1.16, 0.65, -0.6, 0, 0.35, -0.5, 1.1502, 0.7, -0.5, 0, 0.7, -0.6, 0, 0.65, -0.6, 1.16, 0.65, -0.5, 1.1502, 0.7, -0.6, 0, 0.65, -0.3522, 1.5122, 0.7, -0.1906, 1.6201, 0.7, -0.4601, 1.3506, 0.7, -0.4601, 1.3506, 0.7, 0, 1.658, 0.7, -0.1529, 1.5292, 0.7, 0, 1.658, 0.7, 0.3522, 1.5122, 0.7, 0.1529, 1.5292, 0.7, 0.3522, 1.5122, 0.7, 0.5, 1.1502, 0.7, 0.3692, 1.3129, 0.7, 0.4, 0, 0.7, 0.4, 1.158, 0.7, 0.5, 1.1502, 0.7, 0.3692, 1.3129, 0.7, 0.5, 1.1502, 0.7, 0.4, 1.158, 0.7, 0.5, 0, 0.7, 0.4, 0, 0.7, 0.5, 1.1502, 0.7, 0.2826, 1.4426, 0.7, 0.3522, 1.5122, 0.7, 0.3692, 1.3129, 0.7, 0.1529, 1.5292, 0.7, 0.3522, 1.5122, 0.7, 0.2826, 1.4426, 0.7, 0.4601, 1.3506, 0.7, 0.5, 1.1502, 0.7, 0.3522, 1.5122, 0.7, 0, 1.5596, 0.7, 0, 1.658, 0.7, 0.1529, 1.5292, 0.7, -0.1529, 1.5292, 0.7, 0, 1.658, 0.7, 0, 1.5596, 0.7, 0.1906, 1.6201, 0.7, 0.3522, 1.5122, 0.7, 0, 1.658, 0.7, -0.2826, 1.4426, 0.7, -0.4601, 1.3506, 0.7, -0.1529, 1.5292, 0.7, -0.3692, 1.3129, 0.7, -0.4601, 1.3506, 0.7, -0.2826, 1.4426, 0.7, -0.4, 1.158, 0.7, -0.5, 1.1502, 0.7, -0.3692, 1.3129, 0.7, -0.4, 0, 0.7, -0.5, 1.1502, 0.7, -0.4, 1.158, 0.7, -0.5, 0, 0.7, -0.5, 1.1502, 0.7, -0.4, 0, 0.7, -0.5, 1.1502, 0.7, -0.4601, 1.3506, 0.7, -0.3692, 1.3129, 0.7, -0.1906, 1.6201, 0.7, 0, 1.658, 0.7, -0.4601, 1.3506, 0.7, -0.2826, 1.4426, 0.3, -0.2826, 1.4426, 0.7, -0.1529, 1.5292, 0.3, -0.1529, 1.5292, 0.3, -0.2826, 1.4426, 0.7, -0.1529, 1.5292, 0.7, -0.3522, 1.5122, 0.3, -0.4601, 1.3506, 0.3, -0.1906, 1.6201, 0.3, -0.4601, 1.3506, 0.3, -0.1529, 1.5292, 0.3, 0, 1.658, 0.3, 0, 1.658, 0.3, 0.1529, 1.5292, 0.3, 0.3522, 1.5122, 0.3, 0.3522, 1.5122, 0.3, 0.3692, 1.3129, 0.3, 0.5, 1.1502, 0.3, 0.4, 1.158, 0.3, 0.4, 0, 0.3, 0.5, 1.1502, 0.3, 0.5, 0, 0.3, 0.5, 1.1502, 0.3, 0.4, 0, 0.3, 0.3692, 1.3129, 0.3, 0.4, 1.158, 0.3, 0.5, 1.1502, 0.3, 0.2826, 1.4426, 0.3, 0.3692, 1.3129, 0.3, 0.3522, 1.5122, 0.3, 0.4601, 1.3506, 0.3, 0.3522, 1.5122, 0.3, 0.5, 1.1502, 0.3, 0.1529, 1.5292, 0.3, 0.2826, 1.4426, 0.3, 0.3522, 1.5122, 0.3, 0, 1.5596, 0.3, 0.1529, 1.5292, 0.3, 0, 1.658, 0.3, 0.1906, 1.6201, 0.3, 0, 1.658, 0.3, 0.3522, 1.5122, 0.3, -0.1529, 1.5292, 0.3, 0, 1.5596, 0.3, 0, 1.658, 0.3, -0.2826, 1.4426, 0.3, -0.1529, 1.5292, 0.3, -0.4601, 1.3506, 0.3, -0.3692, 1.3129, 0.3, -0.2826, 1.4426, 0.3, -0.4601, 1.3506, 0.3, -0.4, 1.158, 0.3, -0.3692, 1.3129, 0.3, -0.5, 1.1502, 0.3, -0.5, 0, 0.3, -0.4, 0, 0.3, -0.5, 1.1502, 0.3, -0.4, 0, 0.3, -0.4, 1.158, 0.3, -0.5, 1.1502, 0.3, -0.5, 1.1502, 0.3, -0.3692, 1.3129, 0.3, -0.4601, 1.3506, 0.3, -0.1906, 1.6201, 0.3, -0.4601, 1.3506, 0.3, 0, 1.658, 0.3, 0.5, 1.1502, 0.3, 0.5, 0, 0.3, 0.6, 0, 0.35, 0.6, 1.16, 0.35, 0.5, 1.1502, 0.3, 0.6, 0, 0.35, 0.6, 1.16, 0.35, 0.6, 0, 0.35, 0.6, 0, 0.65, 0.6, 1.16, 0.65, 0.6, 1.16, 0.35, 0.6, 0, 0.65, 0.5543, 1.3896, 0.65, 0.5543, 1.3896, 0.35, 0.6, 1.16, 0.35, 0.6, 1.16, 0.65, 0.5543, 1.3896, 0.65, 0.6, 1.16, 0.35, 0.4243, 1.5843, 0.65, 0.4243, 1.5843, 0.35, 0.5543, 1.3896, 0.65, 0.5543, 1.3896, 0.65, 0.4243, 1.5843, 0.35, 0.5543, 1.3896, 0.35, 0.5543, 1.3896, 0.35, 0.4601, 1.3506, 0.3, 0.6, 1.16, 0.35, 0.6, 1.16, 0.35, 0.4601, 1.3506, 0.3, 0.5, 1.1502, 0.3, 0.4243, 1.5843, 0.35, 0.3522, 1.5122, 0.3, 0.5543, 1.3896, 0.35, 0.5543, 1.3896, 0.35, 0.3522, 1.5122, 0.3, 0.4601, 1.3506, 0.3, 0.2296, 1.7143, 0.35, 0.1906, 1.6201, 0.3, 0.4243, 1.5843, 0.35, 0.4243, 1.5843, 0.35, 0.1906, 1.6201, 0.3, 0.3522, 1.5122, 0.3, -0.2826, 1.4426, 0.7, -0.2826, 1.4426, 0.3, -0.3692, 1.3129, 0.3, -0.3692, 1.3129, 0.7, -0.2826, 1.4426, 0.7, -0.3692, 1.3129, 0.3, -0.4, 1.158, 0.3, -0.4, 1.158, 0.7, -0.3692, 1.3129, 0.3, -0.3692, 1.3129, 0.3, -0.4, 1.158, 0.7, -0.3692, 1.3129, 0.7, -0.4, 1.158, 0.7, -0.4, 1.158, 0.3, -0.4, 0, 0.3, -0.4, 0, 0.7, -0.4, 1.158, 0.7, -0.4, 0, 0.3, 0.1906, 1.6201, 0.7, 0.2296, 1.7143, 0.65, 0.3522, 1.5122, 0.7, 0.3522, 1.5122, 0.7, 0.2296, 1.7143, 0.65, 0.4243, 1.5843, 0.65, 0.3522, 1.5122, 0.7, 0.4243, 1.5843, 0.65, 0.4601, 1.3506, 0.7, 0.4601, 1.3506, 0.7, 0.4243, 1.5843, 0.65, 0.5543, 1.3896, 0.65, 0.4601, 1.3506, 0.7, 0.5543, 1.3896, 0.65, 0.6, 1.16, 0.65, 0.5, 1.1502, 0.7, 0.4601, 1.3506, 0.7, 0.6, 1.16, 0.65, 0.6, 1.16, 0.65, 0.6, 0, 0.65, 0.5, 1.1502, 0.7, 0.5, 1.1502, 0.7, 0.6, 0, 0.65, 0.5, 0, 0.7, 0.5, 0, 0.7, 0.6, 0, 0.65, 0.4, 0, 0.7, 0.4, 0, 0.7, 0.6, 0, 0.35, 0.4, 0, 0.3, 0.5, 0, 0.3, 0.4, 0, 0.3, 0.6, 0, 0.35, 0.6, 0, 0.65, 0.6, 0, 0.35, 0.4, 0, 0.7, 0.4, 0, 0.7, 0.4, 0, 0.3, 0.4, 1.158, 0.7, 0.4, 1.158, 0.7, 0.4, 0, 0.3, 0.4, 1.158, 0.3, 0.4, 1.158, 0.7, 0.4, 1.158, 0.3, 0.3692, 1.3129, 0.3, 0.3692, 1.3129, 0.7, 0.4, 1.158, 0.7, 0.3692, 1.3129, 0.3, 0.2826, 1.4426, 0.3, 0.2826, 1.4426, 0.7, 0.3692, 1.3129, 0.3, 0.3692, 1.3129, 0.3, 0.2826, 1.4426, 0.7, 0.3692, 1.3129, 0.7, 0.2826, 1.4426, 0.7, 0.2826, 1.4426, 0.3, 0.1529, 1.5292, 0.3, 0.1529, 1.5292, 0.7, 0.2826, 1.4426, 0.7, 0.1529, 1.5292, 0.3, 0.1529, 1.5292, 0.7, 0.1529, 1.5292, 0.3, 0, 1.5596, 0.3, 0, 1.5596, 0.7, 0.1529, 1.5292, 0.7, 0, 1.5596, 0.3, -0.1529, 1.5292, 0.3, -0.1529, 1.5292, 0.7, 0, 1.5596, 0.3, 0, 1.5596, 0.3, -0.1529, 1.5292, 0.7, 0, 1.5596, 0.7, -0.5, 0, 0.7, -0.4, 0, 0.7, -0.6, 0, 0.65, -0.4, 0, 0.3, -0.6, 0, 0.35, -0.4, 0, 0.7, -0.5, 0, 0.3, -0.6, 0, 0.35, -0.4, 0, 0.3, -0.6, 0, 0.65, -0.4, 0, 0.7, -0.6, 0, 0.35, -0.6, 1.16, 0.35, -0.6, 0, 0.35, -0.5, 1.1502, 0.3, -0.5, 1.1502, 0.3, -0.6, 0, 0.35, -0.5, 0, 0.3, -0.6, 1.16, 0.35, -0.5, 1.1502, 0.3, -0.4601, 1.3506, 0.3, -0.5543, 1.3896, 0.35, -0.6, 1.16, 0.35, -0.4601, 1.3506, 0.3, -0.5, 1.1502, 0.7, -0.6, 1.16, 0.65, -0.4601, 1.3506, 0.7, -0.4601, 1.3506, 0.7, -0.6, 1.16, 0.65, -0.5543, 1.3896, 0.65, -0.5543, 1.3896, 0.35, -0.4601, 1.3506, 0.3, -0.4243, 1.5843, 0.35, -0.4243, 1.5843, 0.35, -0.4601, 1.3506, 0.3, -0.3522, 1.5122, 0.3, -0.4601, 1.3506, 0.7, -0.5543, 1.3896, 0.65, -0.3522, 1.5122, 0.7, -0.3522, 1.5122, 0.7, -0.5543, 1.3896, 0.65, -0.4243, 1.5843, 0.65, -0.4243, 1.5843, 0.35, -0.3522, 1.5122, 0.3, -0.2296, 1.7143, 0.35, -0.2296, 1.7143, 0.35, -0.3522, 1.5122, 0.3, -0.1906, 1.6201, 0.3, -0.3522, 1.5122, 0.7, -0.4243, 1.5843, 0.65, -0.1906, 1.6201, 0.7, -0.1906, 1.6201, 0.7, -0.4243, 1.5843, 0.65, -0.2296, 1.7143, 0.65, -0.2296, 1.7143, 0.35, -0.1906, 1.6201, 0.3, 0, 1.76, 0.35, 0, 1.76, 0.35, -0.1906, 1.6201, 0.3, 0, 1.658, 0.3, -0.1906, 1.6201, 0.7, -0.2296, 1.7143, 0.65, 0, 1.658, 0.7, 0, 1.658, 0.7, -0.2296, 1.7143, 0.65, 0, 1.76, 0.65, 0, 1.76, 0.35, 0, 1.658, 0.3, 0.2296, 1.7143, 0.35, 0.2296, 1.7143, 0.35, 0, 1.658, 0.3, 0.1906, 1.6201, 0.3, 0.2296, 1.7143, 0.65, 0.2296, 1.7143, 0.35, 0.4243, 1.5843, 0.65, 0.4243, 1.5843, 0.65, 0.2296, 1.7143, 0.35, 0.4243, 1.5843, 0.35, 0, 1.658, 0.7, 0, 1.76, 0.65, 0.1906, 1.6201, 0.7, 0.1906, 1.6201, 0.7, 0, 1.76, 0.65, 0.2296, 1.7143, 0.65 )
+
+[sub_resource type="SpatialMaterial" id=11]
+albedo_color = Color( 0.176471, 0.611765, 0.619608, 1 )
+
+[sub_resource type="ConvexPolygonShape" id=12]
+points = PoolVector3Array( -0.5, 1, 0.6, -0.5, 1, 0.4, 0.5, 1, 0.6, 0.5, 1, 0.4, -0.5, 0, 0.6, -0.5, 0, 0.4, -0.5, 1, 0.4, -0.5, 1, 0.6, 0.5, 0, 0.6, 0.5, 0, 0.4, -0.5, 0, 0.4, -0.5, 0, 0.6, 0.5, 1, 0.4, -0.5, 1, 0.4, -0.5, 0, 0.4, 0.5, 0, 0.4, 0.5, 1, 0.6, 0.5, 1, 0.4, 0.5, 0, 0.4, 0.5, 0, 0.6, 0.5, 0, 0.6, -0.5, 0, 0.6, -0.5, 1, 0.6, 0.5, 1, 0.6 )
+
+[node name="Spatial" type="Spatial"]
+
+[node name="Balcony_Base_Curved_Large" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 11 )
+mesh = ExtResource( 29 )
+material/0 = SubResource( 1 )
+
+[node name="Balcony_Base_Bridge_Ramp" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5 )
+mesh = ExtResource( 1 )
+material/0 = SubResource( 1 )
+
+[node name="Balcony_Base_Curved_Small" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 11 )
+mesh = ExtResource( 5 )
+material/0 = SubResource( 1 )
+
+[node name="Balcony_Base_Straight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 10 )
+mesh = ExtResource( 193 )
+material/0 = SubResource( 1 )
+
+[node name="Balcony_Base_Tower" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 12 )
+mesh = ExtResource( 188 )
+material/0 = SubResource( 1 )
+
+[node name="Balcony_Railing_Bridge_Ramp" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+mesh = ExtResource( 187 )
+material/0 = SubResource( 1 )
+material/1 = SubResource( 1 )
+material/2 = SubResource( 1 )
+material/3 = SubResource( 1 )
+material/4 = SubResource( 1 )
+material/5 = SubResource( 1 )
+material/6 = SubResource( 1 )
+material/7 = SubResource( 1 )
+material/8 = SubResource( 1 )
+material/9 = SubResource( 1 )
+material/10 = SubResource( 1 )
+material/11 = SubResource( 1 )
+material/12 = SubResource( 1 )
+material/13 = SubResource( 1 )
+material/14 = SubResource( 1 )
+material/15 = SubResource( 1 )
+material/16 = SubResource( 1 )
+material/17 = SubResource( 1 )
+material/18 = SubResource( 1 )
+material/19 = SubResource( 1 )
+material/20 = SubResource( 1 )
+material/21 = SubResource( 1 )
+material/22 = SubResource( 1 )
+material/23 = SubResource( 1 )
+material/24 = SubResource( 1 )
+material/25 = SubResource( 1 )
+material/26 = SubResource( 1 )
+material/27 = SubResource( 1 )
+material/28 = SubResource( 1 )
+material/29 = SubResource( 1 )
+material/30 = SubResource( 1 )
+
+[node name="Balcony_Railing_Curved_Large" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 20 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 23 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+
+[node name="Balcony_Railing_Curved_Small" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 20 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 2 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+
+[node name="Balcony_Railing_End" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 19 )
+mesh = ExtResource( 16 )
+material/0 = SubResource( 1 )
+material/1 = SubResource( 1 )
+material/2 = SubResource( 1 )
+material/3 = SubResource( 1 )
+material/4 = SubResource( 1 )
+material/5 = SubResource( 1 )
+material/6 = SubResource( 1 )
+material/7 = SubResource( 1 )
+material/8 = SubResource( 1 )
+material/9 = SubResource( 1 )
+material/10 = SubResource( 1 )
+material/11 = SubResource( 1 )
+material/12 = SubResource( 1 )
+material/13 = SubResource( 1 )
+material/14 = SubResource( 1 )
+material/15 = SubResource( 1 )
+material/16 = SubResource( 1 )
+material/17 = SubResource( 1 )
+material/18 = SubResource( 1 )
+
+[node name="Balcony_Railing_Straight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 18 )
+mesh = ExtResource( 9 )
+material/0 = SubResource( 1 )
+material/1 = SubResource( 1 )
+material/2 = SubResource( 1 )
+material/3 = SubResource( 1 )
+material/4 = SubResource( 1 )
+material/5 = SubResource( 1 )
+material/6 = SubResource( 1 )
+material/7 = SubResource( 1 )
+material/8 = SubResource( 1 )
+
+[node name="Balcony_Railing_Tower" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 21 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 91 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+
+[node name="Floor_Bridge_Ramp" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+mesh = ExtResource( 186 )
+material/0 = SubResource( 2 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 2 )
+
+[node name="StaticBody" type="StaticBody" parent="Floor_Bridge_Ramp"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Floor_Bridge_Ramp/StaticBody"]
+shape = SubResource( 4 )
+
+[node name="Floor_Curved_Large" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -7 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 8 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Floor_Curved_Large_Outer" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -5 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 6 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Floor_Curved_Small" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -8 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 191 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Floor_Curved_Small_Outer" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -9 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 18 )
+material/0 = null
+material/1 = null
+
+[node name="Floor_Normal_Square" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6 )
+mesh = ExtResource( 21 )
+material/0 = SubResource( 2 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 2 )
+
+[node name="StaticBody" type="StaticBody" parent="Floor_Normal_Square"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Floor_Normal_Square/StaticBody"]
+shape = SubResource( 5 )
+
+[node name="Floor_Ruined_Corner_Inner_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8 )
+mesh = ExtResource( 167 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
+material/3 = SubResource( 3 )
+material/4 = SubResource( 3 )
+
+[node name="Floor_Ruined_Corner_Inner_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10 )
+mesh = ExtResource( 168 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
+
+[node name="Floor_Ruined_Corner_Outer_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12 )
+mesh = ExtResource( 181 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
+
+[node name="Floor_Ruined_Corner_Outer_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -14 )
+mesh = ExtResource( 25 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
+
+[node name="Floor_Ruined_Straight_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 13 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="Floor_Ruined_Straight_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -16 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 189 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="Floor_Tower_Balcony" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -14 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 177 )
+material/0 = null
+material/1 = null
+
+[node name="Pillar_Large_Arch" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28, 0, 11 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 178 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+
+[node name="Pillar_Large_Arch_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -26, 0, 11 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 26 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+
+[node name="Pillar_Large_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, 11 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 183 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+
+[node name="Pillar_Large_Beam" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -30, 0, 11 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 179 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+
+[node name="Pillar_Large_Beam_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -32, 0, 11 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 63 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="Pillar_Large_Middle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 0, 11 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 10 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+
+[node name="Pillar_Large_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 0, 11 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 184 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+
+[node name="Pillar_Wall_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -26, 0, 14 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 12 )
+material/0 = null
+material/1 = null
+
+[node name="Pillar_Wall_Middle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27, 0, 14 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 27 )
+material/0 = null
+
+[node name="Pillar_Wall_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29, 0, 14 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 54 )
+material/0 = null
+material/1 = null
+
+[node name="Prop_Flag_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -17 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 17 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+
+[node name="Prop_Flag_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 15 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 19 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+
+[node name="Prop_Flag_3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -8 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 185 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+
+[node name="Prop_Flag_Eclipse" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 190 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+
+[node name="Prop_Flag_Moon" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 7 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="Prop_Flag_Stand_Extension" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 11 )
+material/0 = null
+
+[node name="Prop_Flag_Stand_Top" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 24 )
+material/0 = null
+
+[node name="Prop_Flag_Stars" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 182 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+
+[node name="Prop_Flag_Sun" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 22 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="Prop_Rubble_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -5 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 15 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Prop_Rubble_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 17 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 203 )
+material/0 = null
+material/1 = null
+
+[node name="Prop_Rug_Corner_Inner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -7 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 3 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="Prop_Rug_Corner_Outer" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -5 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 20 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="Prop_Rug_Eclipse" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -13 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 180 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+
+[node name="Prop_Rug_Middle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -2 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 14 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Prop_Rug_Moon" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -3 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 31 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Prop_Rug_Side" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -2 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 4 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="Prop_Rug_Stars" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -3 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 171 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+
+[node name="Prop_Rug_Sun" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 175 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Prop_Vase" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0, -16 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 153 )
+material/0 = null
+
+[node name="Prop_Vase_1" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 162 )
+material/0 = null
+
+[node name="Prop_Vase_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -13 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 159 )
+material/0 = null
+
+[node name="Prop_Vase_3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -5 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 176 )
+material/0 = null
+
+[node name="Puzzle_Closed_Conduit_Control_Connector" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 158 )
+material/0 = null
+
+[node name="Puzzle_Closed_Conduit_Straight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 3 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 157 )
+material/0 = null
+
+[node name="Puzzle_Closed_Conduit_Terminator" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 156 )
+material/0 = null
+
+[node name="Puzzle_Control_Lever" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 19 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 165 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+
+[node name="Puzzle_Control_Pressure_Plate" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, -12 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 160 )
+material/0 = null
+
+[node name="Puzzle_Control_Rising_Switch" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 170 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+
+[node name="Puzzle_Floor_Conduit_Control_Housing_Corner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -16 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 161 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+
+[node name="Puzzle_Floor_Conduit_Control_Housing_Cross" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -14 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 164 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+
+[node name="Puzzle_Floor_Conduit_Control_Housing_End" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -12 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 202 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+
+[node name="Puzzle_Floor_Conduit_Control_Housing_Straight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -10 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 64 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+
+[node name="Puzzle_Floor_Conduit_Control_Housing_TJoint" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -8 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 194 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+
+[node name="Puzzle_Floor_Conduit_Control_Housing_Unconnected" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -6 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 166 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Puzzle_Floor_Conduit_Rotating_Housing_Corner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -16 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 195 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+
+[node name="Puzzle_Floor_Conduit_Rotating_Housing_Cross" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -14 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 105 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+
+[node name="Puzzle_Floor_Conduit_Rotating_Housing_End" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -12 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 57 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+
+[node name="Puzzle_Floor_Conduit_Rotating_Housing_Straight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -10 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 58 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+
+[node name="Puzzle_Floor_Conduit_Rotating_Housing_TJoint" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -8 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 169 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+
+[node name="Puzzle_Floor_Conduit_Rotating_Platform_Corner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -16 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 30 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+
+[node name="Puzzle_Floor_Conduit_Rotating_Platform_End" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -14 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 52 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+
+[node name="Puzzle_Floor_Conduit_Rotating_Platform_Straight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -12 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 115 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+
+[node name="Puzzle_Floor_Conduit_Rotating_Platform_TJoint" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -10 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 51 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+
+[node name="Puzzle_Floor_Conduit_Standard_Corner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -16 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 94 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+
+[node name="Puzzle_Floor_Conduit_Standard_Cross" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -14 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 196 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+
+[node name="Puzzle_Floor_Conduit_Standard_End" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -12 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 75 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+
+[node name="Puzzle_Floor_Conduit_Standard_Straight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -10 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 197 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="Puzzle_Floor_Conduit_Standard_TJoint" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -8 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 155 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+
+[node name="Puzzle_Floor_Wall_Conduit_Connector" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -6 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 154 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+
+[node name="Puzzle_Floor_Wall_Conduit_Connector_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -6 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 204 )
+material/0 = null
+material/1 = null
+
+[node name="Puzzle_Sliding_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -4 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 174 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Puzzle_Sliding_Emitter" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -2 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 34 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+
+[node name="Puzzle_Sliding_Key" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 60 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+
+[node name="Puzzle_Sliding_Mirror" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -2 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 61 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+
+[node name="Puzzle_Sliding_Pillar" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23, 0, 14 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 33 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+
+[node name="Puzzle_Sliding_Pillar_Platform_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0, 14 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 173 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+
+[node name="Puzzle_Sliding_Platform_1x1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 26 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 114 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+
+[node name="Puzzle_Sliding_Platform_1x2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -17 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 134 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+
+[node name="Puzzle_Sliding_Platform_1x3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 5 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 201 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+
+[node name="Puzzle_Steps_Conduit" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, 11 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 172 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+
+[node name="Puzzle_Track_Button_Corner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, -3 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 56 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+
+[node name="Puzzle_Track_Button_Cross" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -16 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 73 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+material/54 = null
+material/55 = null
+material/56 = null
+material/57 = null
+material/58 = null
+material/59 = null
+material/60 = null
+material/61 = null
+material/62 = null
+material/63 = null
+material/64 = null
+material/65 = null
+material/66 = null
+material/67 = null
+material/68 = null
+material/69 = null
+material/70 = null
+material/71 = null
+material/72 = null
+material/73 = null
+material/74 = null
+material/75 = null
+material/76 = null
+material/77 = null
+material/78 = null
+material/79 = null
+material/80 = null
+material/81 = null
+material/82 = null
+material/83 = null
+material/84 = null
+
+[node name="Puzzle_Track_Button_End" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 15 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 74 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+
+[node name="Puzzle_Track_Button_Straight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 17 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 87 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+
+[node name="Puzzle_Track_Button_TJoint" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -3 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 59 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+material/54 = null
+material/55 = null
+material/56 = null
+material/57 = null
+material/58 = null
+material/59 = null
+material/60 = null
+material/61 = null
+material/62 = null
+material/63 = null
+material/64 = null
+material/65 = null
+material/66 = null
+material/67 = null
+material/68 = null
+material/69 = null
+material/70 = null
+
+[node name="Puzzle_Track_Rotating_Housing_Corner" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 62 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+
+[node name="Puzzle_Track_Rotating_Housing_Cross" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 93 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+
+[node name="Puzzle_Track_Rotating_Housing_End" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 200 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+
+[node name="Puzzle_Track_Rotating_Housing_Straight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 90 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+
+[node name="Puzzle_Track_Rotating_Housing_TJoint" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 53 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+
+[node name="Puzzle_Track_Rotating_Housing_Unconnected" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 4 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 32 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+
+[node name="Puzzle_Track_Rotating_Platform_Corner" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 28 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+
+[node name="Puzzle_Track_Rotating_Platform_End" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 69 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+
+[node name="Puzzle_Track_Rotating_Platform_Straight" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 70 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+
+[node name="Puzzle_Track_Rotating_Platform_TJoint" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 97 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+
+[node name="Puzzle_Track_Rotating_Platform_Unconnected" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 89 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+
+[node name="Puzzle_Track_Standard_Corner" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 88 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+
+[node name="Puzzle_Track_Standard_Cross" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 198 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+
+[node name="Puzzle_Track_Standard_End" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 199 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+
+[node name="Puzzle_Track_Standard_Straight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -5 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 152 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+
+[node name="Puzzle_Track_Standard_TJoint" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 71 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+
+[node name="Puzzle_Wall_Conduit_Emitter_Corner" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 72 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+
+[node name="Puzzle_Wall_Conduit_Emitter_Cross" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 104 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+
+[node name="Puzzle_Wall_Conduit_Emitter_End" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 163 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+
+[node name="Puzzle_Wall_Conduit_Emitter_Straight" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 81 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+
+[node name="Puzzle_Wall_Conduit_Emitter_TJoint" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 55 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+
+[node name="Puzzle_Wall_Conduit_Emitter_Unconnected" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 86 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+
+[node name="Puzzle_Wall_Conduit_Indicator_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -17 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 85 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+
+[node name="Puzzle_Wall_Conduit_Keyhole_Corner" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 127 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+
+[node name="Puzzle_Wall_Conduit_Keyhole_Cross" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 4 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 126 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+
+[node name="Puzzle_Wall_Conduit_Keyhole_End" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 110 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+
+[node name="Puzzle_Wall_Conduit_Keyhole_Straight" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 76 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+
+[node name="Puzzle_Wall_Conduit_Keyhole_TJoint" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 192 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+
+[node name="Puzzle_Wall_Conduit_Keyhole_Unconnected" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -3 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 77 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+
+[node name="Puzzle_Wall_Conduit_Passthrough" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 147 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Puzzle_Wall_Conduit_Passthrough_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 149 )
+material/0 = null
+
+[node name="Puzzle_Wall_Conduit_Path_Corner" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 148 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+
+[node name="Puzzle_Wall_Conduit_Path_Cross" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 150 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+
+[node name="Puzzle_Wall_Conduit_Path_Curved_Small_Inner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -15 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 151 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+
+[node name="Puzzle_Wall_Conduit_Path_Curved_Small_Outer" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 128 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+
+[node name="Puzzle_Wall_Conduit_Path_End" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 3 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 78 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+
+[node name="Puzzle_Wall_Conduit_Path_Straight" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 79 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="Puzzle_Wall_Conduit_Path_TJoint" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -12 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 80 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+
+[node name="Puzzle_Wall_Pillar_Conduit_Passthrough" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 0, 14 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 65 )
+material/0 = null
+
+[node name="Stairs_Coping_Ramp_Curved_Large" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 66 )
+material/0 = null
+
+[node name="Stairs_Coping_Ramp_Curved_Small" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 67 )
+material/0 = null
+
+[node name="Stairs_Coping_Ramp_Straight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+mesh = ExtResource( 68 )
+material/0 = SubResource( 3 )
+
+[node name="StaticBody" type="StaticBody" parent="Stairs_Coping_Ramp_Straight"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Stairs_Coping_Ramp_Straight/StaticBody"]
+shape = SubResource( 6 )
+
+[node name="Stairs_Newel_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 2 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 130 )
+material/0 = null
+
+[node name="Stairs_Newel_Middle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -3 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 129 )
+material/0 = null
+
+[node name="Stairs_Newel_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 6 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 132 )
+material/0 = null
+material/1 = null
+
+[node name="Stairs_Steps_Curved" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 10 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 133 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+
+[node name="Stairs_Steps_Straight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 11 )
+mesh = ExtResource( 131 )
+material/0 = SubResource( 2 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
+material/3 = SubResource( 3 )
+material/4 = SubResource( 3 )
+material/5 = SubResource( 3 )
+material/6 = SubResource( 3 )
+material/7 = SubResource( 3 )
+material/8 = SubResource( 3 )
+material/9 = SubResource( 3 )
+material/10 = SubResource( 3 )
+material/11 = SubResource( 3 )
+material/12 = SubResource( 3 )
+material/13 = SubResource( 3 )
+material/14 = SubResource( 3 )
+material/15 = SubResource( 3 )
+material/16 = SubResource( 3 )
+material/17 = SubResource( 3 )
+material/18 = SubResource( 3 )
+material/19 = SubResource( 3 )
+material/20 = SubResource( 3 )
+material/21 = SubResource( 3 )
+material/22 = SubResource( 3 )
+
+[node name="StaticBody" type="StaticBody" parent="Stairs_Steps_Straight"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Stairs_Steps_Straight/StaticBody"]
+shape = SubResource( 7 )
+
+[node name="Stairs_Under_Ramp_Curved" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 7 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 135 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Stairs_Under_Ramp_Straight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 111 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Terrain_Water_Large" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, -2 )
+visible = false
+mesh = ExtResource( 112 )
+material/0 = null
+
+[node name="Tower_Bottom" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 12 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 113 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+
+[node name="Tower_Center_Pillar" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -32, 0, 15 )
+mesh = ExtResource( 82 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+
+[node name="Tower_Decoration_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 5 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 84 )
+material/0 = null
+
+[node name="Tower_Landing" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 4 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 83 )
+material/0 = null
+material/1 = null
+
+[node name="Tower_Parapet_Braced_Crowned" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 13, 9 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 95 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+
+[node name="Tower_Parapet_Simple_Crowned" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9, 9 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 96 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="Tower_Steps" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, 12 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 92 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+
+[node name="Tower_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 106 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+
+[node name="Tower_Wall_Normal_Plain" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, -13 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 107 )
+material/0 = null
+material/1 = null
+
+[node name="Tower_Wall_Normal_Window" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, -5 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 108 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Tower_Wall_Normal_Windows" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, -10 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 109 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Tower_Wall_Tall_Doorway" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, -11 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 136 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="Tower_Wall_Tall_Doorway_Base" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 138 )
+material/0 = null
+material/1 = null
+
+[node name="Tower_Wall_Tall_Window" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, -8 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 137 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Tower_Wall_Tall_Windows" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, -6 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 139 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Wall_Arch_Corner_Inner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -7 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 141 )
+material/0 = null
+material/1 = null
+
+[node name="Wall_Arch_Corner_Outer" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 140 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Wall_Arch_Straight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 0, 21 )
+mesh = ExtResource( 142 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
+
+[node name="StaticBody" type="StaticBody" parent="Wall_Arch_Straight"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Wall_Arch_Straight/StaticBody"]
+shape = SubResource( 8 )
+
+[node name="Wall_Curved_Large_Base" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 143 )
+material/0 = null
+
+[node name="Wall_Curved_Large_Coping" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 144 )
+material/0 = null
+
+[node name="Wall_Curved_Large_Middle" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 145 )
+material/0 = null
+material/1 = null
+
+[node name="Wall_Curved_Large_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 4 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 146 )
+material/0 = null
+
+[node name="Wall_Curved_Small_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 35 )
+material/0 = null
+
+[node name="Wall_Curved_Small_Coping" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, -16 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 36 )
+material/0 = null
+
+[node name="Wall_Curved_Small_Middle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -15 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 37 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Wall_Curved_Small_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 6 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 38 )
+material/0 = null
+
+[node name="Wall_Curved_Small_Window" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -13 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 40 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Wall_Curved_Small_Window_Tall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 5 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 39 )
+material/0 = null
+material/1 = null
+
+[node name="Wall_End_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 18 )
+mesh = ExtResource( 41 )
+material/0 = SubResource( 3 )
+
+[node name="Wall_End_Coping" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 16 )
+mesh = ExtResource( 42 )
+material/0 = SubResource( 3 )
+
+[node name="Wall_End_Middle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 16 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 43 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Wall_End_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 17 )
+mesh = ExtResource( 44 )
+material/0 = SubResource( 3 )
+
+[node name="Wall_Ruined_Corner_Inner_1" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 46 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Wall_Ruined_Corner_Inner_2" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 45 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Wall_Ruined_Corner_Outer_1" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 47 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Wall_Ruined_Corner_Outer_2" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 48 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Wall_Ruined_Full_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 5 )
+mesh = ExtResource( 50 )
+material/0 = SubResource( 2 )
+material/1 = SubResource( 2 )
+material/2 = SubResource( 2 )
+material/3 = SubResource( 2 )
+material/4 = SubResource( 3 )
+material/5 = SubResource( 2 )
+material/6 = SubResource( 2 )
+material/7 = SubResource( 2 )
+material/8 = SubResource( 2 )
+material/9 = SubResource( 2 )
+material/10 = SubResource( 2 )
+material/11 = SubResource( 2 )
+material/12 = SubResource( 2 )
+
+[node name="Wall_Ruined_Full_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -17 )
+mesh = ExtResource( 49 )
+material/0 = SubResource( 2 )
+material/1 = SubResource( 2 )
+material/2 = SubResource( 2 )
+material/3 = SubResource( 2 )
+material/4 = SubResource( 2 )
+material/5 = SubResource( 2 )
+material/6 = SubResource( 3 )
+material/7 = SubResource( 2 )
+
+[node name="Wall_Ruined_Full_Cracked_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -2 )
+mesh = ExtResource( 116 )
+material/0 = SubResource( 3 )
+
+[node name="Wall_Ruined_Full_Cracked_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 5 )
+mesh = ExtResource( 118 )
+material/0 = SubResource( 3 )
+
+[node name="Wall_Ruined_Half_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -17 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 117 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="Wall_Ruined_Half_2" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = ExtResource( 119 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Wall_Straight_Arch_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, 21 )
+mesh = ExtResource( 120 )
+material/0 = SubResource( 3 )
+
+[node name="StaticBody" type="StaticBody" parent="Wall_Straight_Arch_Top"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Wall_Straight_Arch_Top/StaticBody"]
+shape = SubResource( 9 )
+
+[node name="Wall_Straight_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2 )
+mesh = ExtResource( 121 )
+material/0 = SubResource( 3 )
+
+[node name="Wall_Straight_Coping" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 5, 0 )
+mesh = ExtResource( 122 )
+material/0 = SubResource( 3 )
+
+[node name="Wall_Straight_Cubby" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0 )
+mesh = ExtResource( 123 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
+material/3 = SubResource( 3 )
+material/4 = SubResource( 3 )
+material/5 = SubResource( 3 )
+material/6 = SubResource( 3 )
+material/7 = SubResource( 3 )
+material/8 = SubResource( 3 )
+
+[node name="Wall_Straight_Door" type="MeshInstance" parent="."]
+transform = Transform( 0.999998, -0.0016699, -0.00119358, 0.0016694, 0.999999, -0.000417283, 0.00119428, 0.000415278, 0.999999, -35, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 124 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+
+[node name="Wall_Straight_Doorway" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -41, 0, 0 )
+mesh = ExtResource( 125 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
+material/3 = SubResource( 3 )
+material/4 = SubResource( 3 )
+material/5 = SubResource( 3 )
+material/6 = SubResource( 3 )
+material/7 = SubResource( 3 )
+material/8 = SubResource( 3 )
+
+[node name="StaticBody" type="StaticBody" parent="Wall_Straight_Doorway"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Wall_Straight_Doorway/StaticBody"]
+shape = SubResource( 10 )
+
+[node name="Wall_Straight_Doorway_Large" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 98 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Wall_Straight_Doorway_Large_Extension" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 0, 1 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 99 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Wall_Straight_Doorway_Large_Pocket" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 100 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+
+[node name="Wall_Straight_Door_Eclipse" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -39, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 101 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+
+[node name="Wall_Straight_Door_Large" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -33, 0, 0 )
+mesh = ExtResource( 102 )
+material/0 = SubResource( 11 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
+material/3 = SubResource( 3 )
+material/4 = SubResource( 2 )
+material/5 = SubResource( 3 )
+material/6 = SubResource( 2 )
+material/7 = SubResource( 3 )
+material/8 = SubResource( 2 )
+material/9 = SubResource( 3 )
+material/10 = SubResource( 2 )
+material/11 = SubResource( 3 )
+material/12 = SubResource( 2 )
+
+[node name="Wall_Straight_Door_Large_Pocket" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 103 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+
+[node name="Wall_Straight_Door_Moon" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -38, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 205 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+
+[node name="Wall_Straight_Door_Stars" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -36, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 206 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+
+[node name="Wall_Straight_Door_Sun" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 207 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+
+[node name="Wall_Straight_Middle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 7 )
+mesh = ExtResource( 208 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+
+[node name="StaticBody" type="StaticBody" parent="Wall_Straight_Middle"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Wall_Straight_Middle/StaticBody"]
+shape = SubResource( 12 )
+
+[node name="Wall_Straight_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
+mesh = ExtResource( 210 )
+material/0 = SubResource( 3 )
+
+[node name="Wall_Straight_Window" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0 )
+mesh = ExtResource( 209 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
+
+[node name="Wall_Straight_Windows" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 211 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Wall_Straight_Windows_Tall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 213 )
+material/0 = null
+material/1 = null
+
+[node name="Wall_Straight_Window_Tall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0 )
+mesh = ExtResource( 212 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -0.5, 0.866025, 0, -0.866025, -0.5, 0, 4, 0 )
+shadow_enabled = true

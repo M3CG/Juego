@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Stairs_Coping_Ramp_Straight.obj-9f262757fccf49e165792fb24240a30a.mesh"
+
+[deps]
+
+files=[ "res://.import/Stairs_Coping_Ramp_Straight.obj-9f262757fccf49e165792fb24240a30a.mesh" ]
+
+source_file="res://stair/Stairs_Coping_Ramp_Straight.obj"
+dest_files=[ "res://.import/Stairs_Coping_Ramp_Straight.obj-9f262757fccf49e165792fb24240a30a.mesh", "res://.import/Stairs_Coping_Ramp_Straight.obj-9f262757fccf49e165792fb24240a30a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

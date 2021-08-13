@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Wall_Conduit_Keyhole_Straight.obj-66bd8f5f3ce3e53964a24d0ca5f28a36.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Wall_Conduit_Keyhole_Straight.obj-66bd8f5f3ce3e53964a24d0ca5f28a36.mesh" ]
+
+source_file="res://wall/Puzzle_Wall_Conduit_Keyhole_Straight.obj"
+dest_files=[ "res://.import/Puzzle_Wall_Conduit_Keyhole_Straight.obj-66bd8f5f3ce3e53964a24d0ca5f28a36.mesh", "res://.import/Puzzle_Wall_Conduit_Keyhole_Straight.obj-66bd8f5f3ce3e53964a24d0ca5f28a36.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

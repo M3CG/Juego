@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Stairs_Under_Ramp_Straight.obj-5a801a6095b015907296b04062b967b1.mesh"
+
+[deps]
+
+files=[ "res://.import/Stairs_Under_Ramp_Straight.obj-5a801a6095b015907296b04062b967b1.mesh" ]
+
+source_file="res://Modular Temple/Stairs_Under_Ramp_Straight.obj"
+dest_files=[ "res://.import/Stairs_Under_Ramp_Straight.obj-5a801a6095b015907296b04062b967b1.mesh", "res://.import/Stairs_Under_Ramp_Straight.obj-5a801a6095b015907296b04062b967b1.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

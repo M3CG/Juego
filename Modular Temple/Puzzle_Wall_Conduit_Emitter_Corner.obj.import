@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Wall_Conduit_Emitter_Corner.obj-df5f363c247a4c751ef0ba0479cbdc52.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Wall_Conduit_Emitter_Corner.obj-df5f363c247a4c751ef0ba0479cbdc52.mesh" ]
+
+source_file="res://Modular Temple/Puzzle_Wall_Conduit_Emitter_Corner.obj"
+dest_files=[ "res://.import/Puzzle_Wall_Conduit_Emitter_Corner.obj-df5f363c247a4c751ef0ba0479cbdc52.mesh", "res://.import/Puzzle_Wall_Conduit_Emitter_Corner.obj-df5f363c247a4c751ef0ba0479cbdc52.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

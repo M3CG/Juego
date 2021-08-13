@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Floor_Normal_Square.obj-1215cd895e7855c3ca8cf34f7b99dac8.mesh"
+
+[deps]
+
+files=[ "res://.import/Floor_Normal_Square.obj-1215cd895e7855c3ca8cf34f7b99dac8.mesh" ]
+
+source_file="res://floor/Floor_Normal_Square.obj"
+dest_files=[ "res://.import/Floor_Normal_Square.obj-1215cd895e7855c3ca8cf34f7b99dac8.mesh", "res://.import/Floor_Normal_Square.obj-1215cd895e7855c3ca8cf34f7b99dac8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

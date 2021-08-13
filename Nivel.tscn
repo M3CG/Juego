@@ -1,0 +1,53 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://gridStair.tres" type="MeshLibrary" id=1]
+[ext_resource path="res://gridFloor.tres" type="MeshLibrary" id=2]
+[ext_resource path="res://gridWall.tres" type="MeshLibrary" id=3]
+
+[sub_resource type="BoxShape" id=1]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="f" type="GridMap" parent="."]
+mesh_library = ExtResource( 2 )
+cell_size = Vector3( 1, 1, 1 )
+data = {
+"cells": PoolIntArray( 196608, 65508, 1441797, 196608, 65509, 1441797, 196608, 65510, 1441797, 327680, 65510, 5, 196608, 65511, 1441797, 327680, 65511, 5, 196608, 65512, 1441797, 327680, 65512, 5, 196608, 65513, 1441797, 327680, 65513, 5, 196608, 65514, 1441797, 327680, 65514, 5, 196608, 65515, 1441797, 327680, 65515, 5, 196608, 65516, 1441797, 327680, 65516, 5, 196608, 65517, 1441797, 327680, 65517, 5, 196608, 65518, 1441797, 327680, 65518, 5, 196608, 65519, 1441797, 327680, 65519, 5, 327680, 65520, 1048576, 65536, 65524, 1441797, 65536, 65525, 1441797, 65536, 65526, 1441797, 65536, 65527, 1441797, 65536, 65528, 1441797, 0, 65531, 1441792, 0, 65532, 5, 0, 65533, 5, 0, 65534, 5, 0, 65535, 5 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, 5, 0 )
+}
+
+[node name="s" type="GridMap" parent="."]
+mesh_library = ExtResource( 1 )
+cell_size = Vector3( 1, 1, 1 )
+data = {
+"cells": PoolIntArray( 131072, 65521, 655367, 196607, 65521, 655362, 65536, 65523, 655367, 131071, 65523, 655362 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, 2, 0 )
+}
+
+[node name="w" type="GridMap" parent="."]
+mesh_library = ExtResource( 3 )
+cell_size = Vector3( 1, 1, 1 )
+data = {
+"cells": PoolIntArray( 131072, 65506, 1441820, 196608, 65506, 1441820, 262144, 65506, 1441820, 327680, 65506, 1441822, 393216, 65506, 1441826, 196608, 65507, 61, 196608, 65510, 50, 196609, 65510, 50, 262144, 65510, 50, 262145, 65510, 50, 196608, 65513, 50, 196609, 65513, 50, 262144, 65513, 50, 262145, 65513, 50, 196608, 65516, 50, 196609, 65516, 50, 262144, 65516, 50, 262145, 65516, 50, 196608, 65519, 50, 196609, 65519, 50, 262144, 65519, 50, 262145, 65519, 50, 0, 65520, 1441869, 65536, 65520, 1441869, 0, 65521, 1441869, 65536, 65521, 1441869, 0, 65522, 1441869, 0, 65523, 1441869, 65536, 65523, 50, 65537, 65523, 50, 131072, 65523, 50, 131073, 65523, 50, 196608, 65523, 50, 196609, 65523, 50, 262144, 65523, 37, 0, 65524, 1441869, 0, 65525, 1441869, 0, 65526, 1441869, 0, 65527, 1441869, 0, 65528, 1441869 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, 6, 0 )
+}
+
+[node name="RigidBody" type="RigidBody" parent="."]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 0, 8.45136, -13.3488 )
+
+[node name="Camera" type="Camera" parent="RigidBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.86102e-06, 0, 17.2452 )
+
+[node name="CollisionShape" type="CollisionShape" parent="RigidBody"]
+shape = SubResource( 1 )
+
+[node name="CSGBox" type="CSGBox" parent="RigidBody"]

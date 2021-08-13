@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Floor_Ruined_Corner_Outer_2.obj-4cf84502ed342929dc7ec123ada1031f.mesh"
+
+[deps]
+
+files=[ "res://.import/Floor_Ruined_Corner_Outer_2.obj-4cf84502ed342929dc7ec123ada1031f.mesh" ]
+
+source_file="res://Modular Temple/Floor_Ruined_Corner_Outer_2.obj"
+dest_files=[ "res://.import/Floor_Ruined_Corner_Outer_2.obj-4cf84502ed342929dc7ec123ada1031f.mesh", "res://.import/Floor_Ruined_Corner_Outer_2.obj-4cf84502ed342929dc7ec123ada1031f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

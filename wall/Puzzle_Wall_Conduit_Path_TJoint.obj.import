@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Wall_Conduit_Path_TJoint.obj-0c30c389efc6b10f8ff19137d331a832.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Wall_Conduit_Path_TJoint.obj-0c30c389efc6b10f8ff19137d331a832.mesh" ]
+
+source_file="res://wall/Puzzle_Wall_Conduit_Path_TJoint.obj"
+dest_files=[ "res://.import/Puzzle_Wall_Conduit_Path_TJoint.obj-0c30c389efc6b10f8ff19137d331a832.mesh", "res://.import/Puzzle_Wall_Conduit_Path_TJoint.obj-0c30c389efc6b10f8ff19137d331a832.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

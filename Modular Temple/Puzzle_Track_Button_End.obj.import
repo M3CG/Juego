@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Track_Button_End.obj-50972cf693037dcbad9b8d713bdb8ade.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Track_Button_End.obj-50972cf693037dcbad9b8d713bdb8ade.mesh" ]
+
+source_file="res://Modular Temple/Puzzle_Track_Button_End.obj"
+dest_files=[ "res://.import/Puzzle_Track_Button_End.obj-50972cf693037dcbad9b8d713bdb8ade.mesh", "res://.import/Puzzle_Track_Button_End.obj-50972cf693037dcbad9b8d713bdb8ade.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

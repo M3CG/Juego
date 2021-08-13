@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Balcony_Base_Bridge_Ramp.obj-d2ec338589b6203a28b391123f21b89f.mesh"
+
+[deps]
+
+files=[ "res://.import/Balcony_Base_Bridge_Ramp.obj-d2ec338589b6203a28b391123f21b89f.mesh" ]
+
+source_file="res://Modular Temple/Balcony_Base_Bridge_Ramp.obj"
+dest_files=[ "res://.import/Balcony_Base_Bridge_Ramp.obj-d2ec338589b6203a28b391123f21b89f.mesh", "res://.import/Balcony_Base_Bridge_Ramp.obj-d2ec338589b6203a28b391123f21b89f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

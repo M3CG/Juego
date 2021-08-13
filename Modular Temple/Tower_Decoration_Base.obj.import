@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Tower_Decoration_Base.obj-d00dc95c05fa7dceba4c78e1091cb3dc.mesh"
+
+[deps]
+
+files=[ "res://.import/Tower_Decoration_Base.obj-d00dc95c05fa7dceba4c78e1091cb3dc.mesh" ]
+
+source_file="res://Modular Temple/Tower_Decoration_Base.obj"
+dest_files=[ "res://.import/Tower_Decoration_Base.obj-d00dc95c05fa7dceba4c78e1091cb3dc.mesh", "res://.import/Tower_Decoration_Base.obj-d00dc95c05fa7dceba4c78e1091cb3dc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

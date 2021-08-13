@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Tower_Center_Pillar.obj-4d1b4d5d8ac8b13075d9305a5be8028e.mesh"
+
+[deps]
+
+files=[ "res://.import/Tower_Center_Pillar.obj-4d1b4d5d8ac8b13075d9305a5be8028e.mesh" ]
+
+source_file="res://Modular Temple/Tower_Center_Pillar.obj"
+dest_files=[ "res://.import/Tower_Center_Pillar.obj-4d1b4d5d8ac8b13075d9305a5be8028e.mesh", "res://.import/Tower_Center_Pillar.obj-4d1b4d5d8ac8b13075d9305a5be8028e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
