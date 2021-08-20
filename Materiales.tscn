@@ -1,4 +1,4 @@
-[gd_scene load_steps=218 format=2]
+[gd_scene load_steps=219 format=2]
 
 [ext_resource path="res://Modular Temple/Balcony_Base_Bridge_Ramp.obj" type="ArrayMesh" id=1]
 [ext_resource path="res://Modular Temple/Balcony_Railing_Curved_Small.obj" type="ArrayMesh" id=2]
@@ -217,13 +217,16 @@
 [sub_resource type="SpatialMaterial" id=1]
 albedo_color = Color( 0.843137, 0.592157, 0.247059, 1 )
 
-[sub_resource type="SpatialMaterial" id=41]
-albedo_color = Color( 0.772549, 0.588235, 0.32549, 1 )
+[sub_resource type="SpatialMaterial" id=2]
+albedo_color = Color( 0.960784, 0.796078, 0.360784, 1 )
 
-[sub_resource type="SpatialMaterial" id=42]
-albedo_color = Color( 0.898039, 0.74902, 0.552941, 1 )
+[sub_resource type="SpatialMaterial" id=3]
+albedo_color = Color( 0.929412, 0.796078, 0.431373, 1 )
 
-[sub_resource type="SpatialMaterial" id=352]
+[sub_resource type="ConcavePolygonShape" id=212]
+data = PoolVector3Array( 0.5, -0.2, -0.5, 0.5, -0.2, 0.5, 0.5, 0, -0.5, 0.5, 0, -0.5, 0.5, -0.2, 0.5, 0.5, 0, 0.5, 0.5, -0.2, -0.5, -0.5, -0.2, -0.5, 0.5, -0.2, 0.5, 0.5, -0.2, 0.5, -0.5, -0.2, -0.5, -0.5, -0.2, 0.5, -0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, -0.2, 0.5, -0.5, -0.2, -0.5, -0.5, 0, -0.5, -0.5, -0.2, 0.5, -0.5, 0, 0.5, 0.5, 0, 0.5, 0.5, -0.2, 0.5, -0.5, -0.2, 0.5, -0.5, 0, 0.5, 0.5, -0.2, 0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, 0, -0.5, 0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 0, -0.5, -0.5, -0.2, -0.5, 0.5, -0.2, -0.5, -0.5, 0, -0.5, -0.5, 0, -0.5, 0.5, -0.2, -0.5, 0.5, 0, -0.5 )
+
+[sub_resource type="SpatialMaterial" id=4]
 albedo_color = Color( 0.176471, 0.611765, 0.619608, 1 )
 
 [node name="Spatial" type="Spatial"]
@@ -290,7 +293,7 @@ material/30 = SubResource( 1 )
 
 [node name="Balcony_Railing_Curved_Large" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 20 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 23 )
 material/0 = null
 material/1 = null
@@ -320,7 +323,7 @@ material/24 = null
 
 [node name="Balcony_Railing_Curved_Small" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 20 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 2 )
 material/0 = null
 material/1 = null
@@ -383,7 +386,7 @@ material/8 = SubResource( 1 )
 
 [node name="Balcony_Railing_Tower" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 21 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 91 )
 material/0 = null
 material/1 = null
@@ -416,13 +419,13 @@ material/26 = null
 [node name="Floor_Bridge_Ramp" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
 mesh = ExtResource( 186 )
-material/0 = SubResource( 41 )
-material/1 = SubResource( 42 )
-material/2 = SubResource( 41 )
+material/0 = SubResource( 2 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 2 )
 
 [node name="Floor_Curved_Large" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -7 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 8 )
 material/0 = null
 material/1 = null
@@ -430,7 +433,7 @@ material/2 = null
 
 [node name="Floor_Curved_Large_Outer" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -5 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 6 )
 material/0 = null
 material/1 = null
@@ -438,7 +441,7 @@ material/2 = null
 
 [node name="Floor_Curved_Small" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -8 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 191 )
 material/0 = null
 material/1 = null
@@ -446,7 +449,7 @@ material/2 = null
 
 [node name="Floor_Curved_Small_Outer" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -9 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 18 )
 material/0 = null
 material/1 = null
@@ -454,43 +457,48 @@ material/1 = null
 [node name="Floor_Normal_Square" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6 )
 mesh = ExtResource( 21 )
-material/0 = SubResource( 41 )
-material/1 = SubResource( 42 )
-material/2 = SubResource( 41 )
+material/0 = SubResource( 2 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 2 )
+
+[node name="StaticBody" type="StaticBody" parent="Floor_Normal_Square"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Floor_Normal_Square/StaticBody"]
+shape = SubResource( 212 )
 
 [node name="Floor_Ruined_Corner_Inner_1" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8 )
 mesh = ExtResource( 167 )
-material/0 = SubResource( 42 )
-material/1 = SubResource( 42 )
-material/2 = SubResource( 42 )
-material/3 = SubResource( 42 )
-material/4 = SubResource( 42 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
+material/3 = SubResource( 3 )
+material/4 = SubResource( 3 )
 
 [node name="Floor_Ruined_Corner_Inner_2" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10 )
 mesh = ExtResource( 168 )
-material/0 = SubResource( 42 )
-material/1 = SubResource( 42 )
-material/2 = SubResource( 42 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
 
 [node name="Floor_Ruined_Corner_Outer_1" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12 )
 mesh = ExtResource( 181 )
-material/0 = SubResource( 42 )
-material/1 = SubResource( 42 )
-material/2 = SubResource( 42 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
 
 [node name="Floor_Ruined_Corner_Outer_2" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -14 )
 mesh = ExtResource( 25 )
-material/0 = SubResource( 42 )
-material/1 = SubResource( 42 )
-material/2 = SubResource( 42 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
 
 [node name="Floor_Ruined_Straight_1" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 13 )
 material/0 = null
 material/1 = null
@@ -500,7 +508,7 @@ material/4 = null
 
 [node name="Floor_Ruined_Straight_2" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -16 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 189 )
 material/0 = null
 material/1 = null
@@ -510,14 +518,14 @@ material/4 = null
 
 [node name="Floor_Tower_Balcony" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -14 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 177 )
 material/0 = null
 material/1 = null
 
 [node name="Pillar_Large_Arch" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28, 0, 11 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 178 )
 material/0 = null
 material/1 = null
@@ -535,7 +543,7 @@ material/12 = null
 
 [node name="Pillar_Large_Arch_Top" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -26, 0, 11 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 26 )
 material/0 = null
 material/1 = null
@@ -564,7 +572,7 @@ material/23 = null
 
 [node name="Pillar_Large_Base" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, 11 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 183 )
 material/0 = null
 material/1 = null
@@ -581,7 +589,7 @@ material/11 = null
 
 [node name="Pillar_Large_Beam" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -30, 0, 11 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 179 )
 material/0 = null
 material/1 = null
@@ -595,7 +603,7 @@ material/8 = null
 
 [node name="Pillar_Large_Beam_Top" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -32, 0, 11 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 63 )
 material/0 = null
 material/1 = null
@@ -605,7 +613,7 @@ material/4 = null
 
 [node name="Pillar_Large_Middle" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 0, 11 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 10 )
 material/0 = null
 material/1 = null
@@ -619,7 +627,7 @@ material/8 = null
 
 [node name="Pillar_Large_Top" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 0, 11 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 184 )
 material/0 = null
 material/1 = null
@@ -636,27 +644,27 @@ material/11 = null
 
 [node name="Pillar_Wall_Base" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -26, 0, 14 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 12 )
 material/0 = null
 material/1 = null
 
 [node name="Pillar_Wall_Middle" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27, 0, 14 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 27 )
 material/0 = null
 
 [node name="Pillar_Wall_Top" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29, 0, 14 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 54 )
 material/0 = null
 material/1 = null
 
 [node name="Prop_Flag_1" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -17 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 17 )
 material/0 = null
 material/1 = null
@@ -671,7 +679,7 @@ material/9 = null
 
 [node name="Prop_Flag_2" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 15 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 19 )
 material/0 = null
 material/1 = null
@@ -691,7 +699,7 @@ material/14 = null
 
 [node name="Prop_Flag_3" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -8 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 185 )
 material/0 = null
 material/1 = null
@@ -712,7 +720,7 @@ material/15 = null
 material/16 = null
 
 [node name="Prop_Flag_Eclipse" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 190 )
 material/0 = null
 material/1 = null
@@ -724,7 +732,7 @@ material/6 = null
 material/7 = null
 
 [node name="Prop_Flag_Moon" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 7 )
 material/0 = null
 material/1 = null
@@ -734,17 +742,17 @@ material/4 = null
 material/5 = null
 
 [node name="Prop_Flag_Stand_Extension" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 11 )
 material/0 = null
 
 [node name="Prop_Flag_Stand_Top" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 24 )
 material/0 = null
 
 [node name="Prop_Flag_Stars" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 182 )
 material/0 = null
 material/1 = null
@@ -758,7 +766,7 @@ material/8 = null
 
 [node name="Prop_Flag_Sun" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 22 )
 material/0 = null
 material/1 = null
@@ -769,7 +777,7 @@ material/5 = null
 
 [node name="Prop_Rubble_1" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -5 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 15 )
 material/0 = null
 material/1 = null
@@ -777,14 +785,14 @@ material/2 = null
 
 [node name="Prop_Rubble_2" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 17 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 203 )
 material/0 = null
 material/1 = null
 
 [node name="Prop_Rug_Corner_Inner" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -7 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 3 )
 material/0 = null
 material/1 = null
@@ -794,7 +802,7 @@ material/4 = null
 
 [node name="Prop_Rug_Corner_Outer" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -5 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 20 )
 material/0 = null
 material/1 = null
@@ -804,7 +812,7 @@ material/4 = null
 
 [node name="Prop_Rug_Eclipse" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -13 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 180 )
 material/0 = null
 material/1 = null
@@ -818,7 +826,7 @@ material/8 = null
 
 [node name="Prop_Rug_Middle" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -2 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 14 )
 material/0 = null
 material/1 = null
@@ -826,7 +834,7 @@ material/2 = null
 
 [node name="Prop_Rug_Moon" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -3 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 31 )
 material/0 = null
 material/1 = null
@@ -838,7 +846,7 @@ material/6 = null
 
 [node name="Prop_Rug_Side" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -2 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 4 )
 material/0 = null
 material/1 = null
@@ -848,7 +856,7 @@ material/4 = null
 
 [node name="Prop_Rug_Stars" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -3 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 171 )
 material/0 = null
 material/1 = null
@@ -864,7 +872,7 @@ material/10 = null
 
 [node name="Prop_Rug_Sun" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 175 )
 material/0 = null
 material/1 = null
@@ -876,47 +884,47 @@ material/6 = null
 
 [node name="Prop_Vase" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0, -16 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 153 )
 material/0 = null
 
 [node name="Prop_Vase_1" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 162 )
 material/0 = null
 
 [node name="Prop_Vase_2" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -13 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 159 )
 material/0 = null
 
 [node name="Prop_Vase_3" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -5 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 176 )
 material/0 = null
 
 [node name="Puzzle_Closed_Conduit_Control_Connector" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 158 )
 material/0 = null
 
 [node name="Puzzle_Closed_Conduit_Straight" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 3 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 157 )
 material/0 = null
 
 [node name="Puzzle_Closed_Conduit_Terminator" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 156 )
 material/0 = null
 
 [node name="Puzzle_Control_Lever" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 19 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 165 )
 material/0 = null
 material/1 = null
@@ -942,13 +950,13 @@ material/20 = null
 
 [node name="Puzzle_Control_Pressure_Plate" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, -12 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 160 )
 material/0 = null
 
 [node name="Puzzle_Control_Rising_Switch" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 170 )
 material/0 = null
 material/1 = null
@@ -984,7 +992,7 @@ material/30 = null
 
 [node name="Puzzle_Floor_Conduit_Control_Housing_Corner" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -16 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 161 )
 material/0 = null
 material/1 = null
@@ -1003,7 +1011,7 @@ material/13 = null
 
 [node name="Puzzle_Floor_Conduit_Control_Housing_Cross" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -14 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 164 )
 material/0 = null
 material/1 = null
@@ -1030,7 +1038,7 @@ material/21 = null
 
 [node name="Puzzle_Floor_Conduit_Control_Housing_End" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -12 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 202 )
 material/0 = null
 material/1 = null
@@ -1043,7 +1051,7 @@ material/7 = null
 
 [node name="Puzzle_Floor_Conduit_Control_Housing_Straight" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -10 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 64 )
 material/0 = null
 material/1 = null
@@ -1061,7 +1069,7 @@ material/12 = null
 
 [node name="Puzzle_Floor_Conduit_Control_Housing_TJoint" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -8 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 194 )
 material/0 = null
 material/1 = null
@@ -1092,7 +1100,7 @@ material/25 = null
 
 [node name="Puzzle_Floor_Conduit_Control_Housing_Unconnected" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -6 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 166 )
 material/0 = null
 material/1 = null
@@ -1100,7 +1108,7 @@ material/2 = null
 
 [node name="Puzzle_Floor_Conduit_Rotating_Housing_Corner" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -16 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 195 )
 material/0 = null
 material/1 = null
@@ -1126,7 +1134,7 @@ material/20 = null
 
 [node name="Puzzle_Floor_Conduit_Rotating_Housing_Cross" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -14 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 105 )
 material/0 = null
 material/1 = null
@@ -1173,7 +1181,7 @@ material/41 = null
 
 [node name="Puzzle_Floor_Conduit_Rotating_Housing_End" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -12 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 57 )
 material/0 = null
 material/1 = null
@@ -1192,7 +1200,7 @@ material/13 = null
 
 [node name="Puzzle_Floor_Conduit_Rotating_Housing_Straight" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -10 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 58 )
 material/0 = null
 material/1 = null
@@ -1225,7 +1233,7 @@ material/27 = null
 
 [node name="Puzzle_Floor_Conduit_Rotating_Housing_TJoint" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -8 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 169 )
 material/0 = null
 material/1 = null
@@ -1265,7 +1273,7 @@ material/34 = null
 
 [node name="Puzzle_Floor_Conduit_Rotating_Platform_Corner" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -16 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 30 )
 material/0 = null
 material/1 = null
@@ -1291,7 +1299,7 @@ material/20 = null
 
 [node name="Puzzle_Floor_Conduit_Rotating_Platform_End" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -14 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 52 )
 material/0 = null
 material/1 = null
@@ -1309,7 +1317,7 @@ material/12 = null
 
 [node name="Puzzle_Floor_Conduit_Rotating_Platform_Straight" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -12 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 115 )
 material/0 = null
 material/1 = null
@@ -1335,7 +1343,7 @@ material/20 = null
 
 [node name="Puzzle_Floor_Conduit_Rotating_Platform_TJoint" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -10 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 51 )
 material/0 = null
 material/1 = null
@@ -1365,7 +1373,7 @@ material/24 = null
 
 [node name="Puzzle_Floor_Conduit_Standard_Corner" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -16 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 94 )
 material/0 = null
 material/1 = null
@@ -1381,7 +1389,7 @@ material/10 = null
 
 [node name="Puzzle_Floor_Conduit_Standard_Cross" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -14 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 196 )
 material/0 = null
 material/1 = null
@@ -1407,7 +1415,7 @@ material/20 = null
 
 [node name="Puzzle_Floor_Conduit_Standard_End" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -12 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 75 )
 material/0 = null
 material/1 = null
@@ -1424,7 +1432,7 @@ material/11 = null
 
 [node name="Puzzle_Floor_Conduit_Standard_Straight" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -10 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 197 )
 material/0 = null
 material/1 = null
@@ -1435,7 +1443,7 @@ material/5 = null
 
 [node name="Puzzle_Floor_Conduit_Standard_TJoint" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -8 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 155 )
 material/0 = null
 material/1 = null
@@ -1455,7 +1463,7 @@ material/14 = null
 
 [node name="Puzzle_Floor_Wall_Conduit_Connector" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -6 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 154 )
 material/0 = null
 material/1 = null
@@ -1475,14 +1483,14 @@ material/14 = null
 
 [node name="Puzzle_Floor_Wall_Conduit_Connector_Base" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -6 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 204 )
 material/0 = null
 material/1 = null
 
 [node name="Puzzle_Sliding_Base" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -4 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 174 )
 material/0 = null
 material/1 = null
@@ -1490,7 +1498,7 @@ material/2 = null
 
 [node name="Puzzle_Sliding_Emitter" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -2 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 34 )
 material/0 = null
 material/1 = null
@@ -1512,7 +1520,7 @@ material/16 = null
 
 [node name="Puzzle_Sliding_Key" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 60 )
 material/0 = null
 material/1 = null
@@ -1569,7 +1577,7 @@ material/51 = null
 
 [node name="Puzzle_Sliding_Mirror" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -2 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 61 )
 material/0 = null
 material/1 = null
@@ -1592,7 +1600,7 @@ material/17 = null
 
 [node name="Puzzle_Sliding_Pillar" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23, 0, 14 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 33 )
 material/0 = null
 material/1 = null
@@ -1606,7 +1614,7 @@ material/8 = null
 
 [node name="Puzzle_Sliding_Pillar_Platform_Top" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0, 14 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 173 )
 material/0 = null
 material/1 = null
@@ -1620,7 +1628,7 @@ material/8 = null
 
 [node name="Puzzle_Sliding_Platform_1x1" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 26 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 114 )
 material/0 = null
 material/1 = null
@@ -1636,7 +1644,7 @@ material/10 = null
 
 [node name="Puzzle_Sliding_Platform_1x2" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -17 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 134 )
 material/0 = null
 material/1 = null
@@ -1655,7 +1663,7 @@ material/13 = null
 
 [node name="Puzzle_Sliding_Platform_1x3" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 5 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 201 )
 material/0 = null
 material/1 = null
@@ -1680,7 +1688,7 @@ material/19 = null
 
 [node name="Puzzle_Steps_Conduit" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, 11 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 172 )
 material/0 = null
 material/1 = null
@@ -1720,7 +1728,7 @@ material/34 = null
 
 [node name="Puzzle_Track_Button_Corner" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, -3 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 56 )
 material/0 = null
 material/1 = null
@@ -1776,7 +1784,7 @@ material/50 = null
 
 [node name="Puzzle_Track_Button_Cross" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -16 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 73 )
 material/0 = null
 material/1 = null
@@ -1866,7 +1874,7 @@ material/84 = null
 
 [node name="Puzzle_Track_Button_End" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 15 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 74 )
 material/0 = null
 material/1 = null
@@ -1911,7 +1919,7 @@ material/39 = null
 
 [node name="Puzzle_Track_Button_Straight" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 17 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 87 )
 material/0 = null
 material/1 = null
@@ -1961,7 +1969,7 @@ material/44 = null
 
 [node name="Puzzle_Track_Button_TJoint" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -3 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 59 )
 material/0 = null
 material/1 = null
@@ -2036,7 +2044,7 @@ material/69 = null
 material/70 = null
 
 [node name="Puzzle_Track_Rotating_Housing_Corner" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 62 )
 material/0 = null
 material/1 = null
@@ -2070,7 +2078,7 @@ material/28 = null
 material/29 = null
 
 [node name="Puzzle_Track_Rotating_Housing_Cross" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 93 )
 material/0 = null
 material/1 = null
@@ -2119,7 +2127,7 @@ material/43 = null
 material/44 = null
 
 [node name="Puzzle_Track_Rotating_Housing_End" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 200 )
 material/0 = null
 material/1 = null
@@ -2146,7 +2154,7 @@ material/21 = null
 
 [node name="Puzzle_Track_Rotating_Housing_Straight" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 90 )
 material/0 = null
 material/1 = null
@@ -2177,7 +2185,7 @@ material/25 = null
 material/26 = null
 
 [node name="Puzzle_Track_Rotating_Housing_TJoint" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 53 )
 material/0 = null
 material/1 = null
@@ -2223,7 +2231,7 @@ material/40 = null
 
 [node name="Puzzle_Track_Rotating_Housing_Unconnected" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 4 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 32 )
 material/0 = null
 material/1 = null
@@ -2241,7 +2249,7 @@ material/12 = null
 material/13 = null
 
 [node name="Puzzle_Track_Rotating_Platform_Corner" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 28 )
 material/0 = null
 material/1 = null
@@ -2263,7 +2271,7 @@ material/16 = null
 material/17 = null
 
 [node name="Puzzle_Track_Rotating_Platform_End" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 69 )
 material/0 = null
 material/1 = null
@@ -2282,7 +2290,7 @@ material/13 = null
 material/14 = null
 
 [node name="Puzzle_Track_Rotating_Platform_Straight" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 70 )
 material/0 = null
 material/1 = null
@@ -2308,7 +2316,7 @@ material/20 = null
 material/21 = null
 
 [node name="Puzzle_Track_Rotating_Platform_TJoint" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 97 )
 material/0 = null
 material/1 = null
@@ -2333,7 +2341,7 @@ material/19 = null
 material/20 = null
 
 [node name="Puzzle_Track_Rotating_Platform_Unconnected" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 89 )
 material/0 = null
 material/1 = null
@@ -2354,7 +2362,7 @@ material/15 = null
 material/16 = null
 
 [node name="Puzzle_Track_Standard_Corner" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 88 )
 material/0 = null
 material/1 = null
@@ -2369,7 +2377,7 @@ material/9 = null
 material/10 = null
 
 [node name="Puzzle_Track_Standard_Cross" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 198 )
 material/0 = null
 material/1 = null
@@ -2395,7 +2403,7 @@ material/20 = null
 
 [node name="Puzzle_Track_Standard_End" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 199 )
 material/0 = null
 material/1 = null
@@ -2411,7 +2419,7 @@ material/10 = null
 
 [node name="Puzzle_Track_Standard_Straight" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -5 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 152 )
 material/0 = null
 material/1 = null
@@ -2427,7 +2435,7 @@ material/10 = null
 
 [node name="Puzzle_Track_Standard_TJoint" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 71 )
 material/0 = null
 material/1 = null
@@ -2445,7 +2453,7 @@ material/12 = null
 material/13 = null
 
 [node name="Puzzle_Wall_Conduit_Emitter_Corner" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 72 )
 material/0 = null
 material/1 = null
@@ -2477,7 +2485,7 @@ material/26 = null
 material/27 = null
 
 [node name="Puzzle_Wall_Conduit_Emitter_Cross" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 104 )
 material/0 = null
 material/1 = null
@@ -2521,7 +2529,7 @@ material/38 = null
 material/39 = null
 
 [node name="Puzzle_Wall_Conduit_Emitter_End" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 163 )
 material/0 = null
 material/1 = null
@@ -2544,7 +2552,7 @@ material/17 = null
 material/18 = null
 
 [node name="Puzzle_Wall_Conduit_Emitter_Straight" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 81 )
 material/0 = null
 material/1 = null
@@ -2578,7 +2586,7 @@ material/28 = null
 material/29 = null
 
 [node name="Puzzle_Wall_Conduit_Emitter_TJoint" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 55 )
 material/0 = null
 material/1 = null
@@ -2619,7 +2627,7 @@ material/35 = null
 material/36 = null
 
 [node name="Puzzle_Wall_Conduit_Emitter_Unconnected" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 86 )
 material/0 = null
 material/1 = null
@@ -2645,7 +2653,7 @@ material/20 = null
 
 [node name="Puzzle_Wall_Conduit_Indicator_1" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -17 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 85 )
 material/0 = null
 material/1 = null
@@ -2661,7 +2669,7 @@ material/10 = null
 material/11 = null
 
 [node name="Puzzle_Wall_Conduit_Keyhole_Corner" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 127 )
 material/0 = null
 material/1 = null
@@ -2686,7 +2694,7 @@ material/19 = null
 
 [node name="Puzzle_Wall_Conduit_Keyhole_Cross" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 4 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 126 )
 material/0 = null
 material/1 = null
@@ -2725,7 +2733,7 @@ material/33 = null
 material/34 = null
 
 [node name="Puzzle_Wall_Conduit_Keyhole_End" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 110 )
 material/0 = null
 material/1 = null
@@ -2747,7 +2755,7 @@ material/16 = null
 material/17 = null
 
 [node name="Puzzle_Wall_Conduit_Keyhole_Straight" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 76 )
 material/0 = null
 material/1 = null
@@ -2772,7 +2780,7 @@ material/19 = null
 material/20 = null
 
 [node name="Puzzle_Wall_Conduit_Keyhole_TJoint" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 192 )
 material/0 = null
 material/1 = null
@@ -2800,7 +2808,7 @@ material/22 = null
 
 [node name="Puzzle_Wall_Conduit_Keyhole_Unconnected" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -3 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 77 )
 material/0 = null
 material/1 = null
@@ -2813,7 +2821,7 @@ material/7 = null
 material/8 = null
 
 [node name="Puzzle_Wall_Conduit_Passthrough" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 147 )
 material/0 = null
 material/1 = null
@@ -2821,12 +2829,12 @@ material/2 = null
 
 [node name="Puzzle_Wall_Conduit_Passthrough_Base" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 149 )
 material/0 = null
 
 [node name="Puzzle_Wall_Conduit_Path_Corner" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 148 )
 material/0 = null
 material/1 = null
@@ -2840,7 +2848,7 @@ material/8 = null
 material/9 = null
 
 [node name="Puzzle_Wall_Conduit_Path_Cross" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 150 )
 material/0 = null
 material/1 = null
@@ -2863,7 +2871,7 @@ material/17 = null
 
 [node name="Puzzle_Wall_Conduit_Path_Curved_Small_Inner" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -15 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 151 )
 material/0 = null
 material/1 = null
@@ -2879,7 +2887,7 @@ material/10 = null
 
 [node name="Puzzle_Wall_Conduit_Path_Curved_Small_Outer" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 128 )
 material/0 = null
 material/1 = null
@@ -2897,7 +2905,7 @@ material/12 = null
 
 [node name="Puzzle_Wall_Conduit_Path_End" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 3 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 78 )
 material/0 = null
 material/1 = null
@@ -2909,7 +2917,7 @@ material/6 = null
 material/7 = null
 
 [node name="Puzzle_Wall_Conduit_Path_Straight" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 79 )
 material/0 = null
 material/1 = null
@@ -2919,7 +2927,7 @@ material/4 = null
 
 [node name="Puzzle_Wall_Conduit_Path_TJoint" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -12 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 80 )
 material/0 = null
 material/1 = null
@@ -2935,48 +2943,48 @@ material/10 = null
 
 [node name="Puzzle_Wall_Pillar_Conduit_Passthrough" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 0, 14 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 65 )
 material/0 = null
 
 [node name="Stairs_Coping_Ramp_Curved_Large" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 66 )
 material/0 = null
 
 [node name="Stairs_Coping_Ramp_Curved_Small" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 67 )
 material/0 = null
 
 [node name="Stairs_Coping_Ramp_Straight" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
 mesh = ExtResource( 68 )
-material/0 = SubResource( 42 )
+material/0 = SubResource( 3 )
 
 [node name="Stairs_Newel_Base" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 2 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 130 )
 material/0 = null
 
 [node name="Stairs_Newel_Middle" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -3 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 129 )
 material/0 = null
 
 [node name="Stairs_Newel_Top" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 6 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 132 )
 material/0 = null
 material/1 = null
 
 [node name="Stairs_Steps_Curved" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 10 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 133 )
 material/0 = null
 material/1 = null
@@ -3005,33 +3013,33 @@ material/22 = null
 [node name="Stairs_Steps_Straight" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 11 )
 mesh = ExtResource( 131 )
-material/0 = SubResource( 41 )
-material/1 = SubResource( 42 )
-material/2 = SubResource( 42 )
-material/3 = SubResource( 42 )
-material/4 = SubResource( 42 )
-material/5 = SubResource( 42 )
-material/6 = SubResource( 42 )
-material/7 = SubResource( 42 )
-material/8 = SubResource( 42 )
-material/9 = SubResource( 42 )
-material/10 = SubResource( 42 )
-material/11 = SubResource( 42 )
-material/12 = SubResource( 42 )
-material/13 = SubResource( 42 )
-material/14 = SubResource( 42 )
-material/15 = SubResource( 42 )
-material/16 = SubResource( 42 )
-material/17 = SubResource( 42 )
-material/18 = SubResource( 42 )
-material/19 = SubResource( 42 )
-material/20 = SubResource( 42 )
-material/21 = SubResource( 42 )
-material/22 = SubResource( 42 )
+material/0 = SubResource( 2 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
+material/3 = SubResource( 3 )
+material/4 = SubResource( 3 )
+material/5 = SubResource( 3 )
+material/6 = SubResource( 3 )
+material/7 = SubResource( 3 )
+material/8 = SubResource( 3 )
+material/9 = SubResource( 3 )
+material/10 = SubResource( 3 )
+material/11 = SubResource( 3 )
+material/12 = SubResource( 3 )
+material/13 = SubResource( 3 )
+material/14 = SubResource( 3 )
+material/15 = SubResource( 3 )
+material/16 = SubResource( 3 )
+material/17 = SubResource( 3 )
+material/18 = SubResource( 3 )
+material/19 = SubResource( 3 )
+material/20 = SubResource( 3 )
+material/21 = SubResource( 3 )
+material/22 = SubResource( 3 )
 
 [node name="Stairs_Under_Ramp_Curved" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 7 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 135 )
 material/0 = null
 material/1 = null
@@ -3039,7 +3047,7 @@ material/2 = null
 
 [node name="Stairs_Under_Ramp_Straight" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 111 )
 material/0 = null
 material/1 = null
@@ -3053,7 +3061,7 @@ material/0 = null
 
 [node name="Tower_Bottom" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 12 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 113 )
 material/0 = null
 material/1 = null
@@ -3105,25 +3113,25 @@ material/45 = null
 [node name="Tower_Center_Pillar" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -32, 0, 15 )
 mesh = ExtResource( 82 )
-material/0 = SubResource( 42 )
-material/1 = SubResource( 42 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
 
 [node name="Tower_Decoration_Base" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 5 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 84 )
 material/0 = null
 
 [node name="Tower_Landing" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 4 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 83 )
 material/0 = null
 material/1 = null
 
 [node name="Tower_Parapet_Braced_Crowned" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 13, 9 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 95 )
 material/0 = null
 material/1 = null
@@ -3179,7 +3187,7 @@ material/50 = null
 
 [node name="Tower_Parapet_Simple_Crowned" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9, 9 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 96 )
 material/0 = null
 material/1 = null
@@ -3190,7 +3198,7 @@ material/5 = null
 
 [node name="Tower_Steps" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, 12 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 92 )
 material/0 = null
 material/1 = null
@@ -3208,7 +3216,7 @@ material/12 = null
 
 [node name="Tower_Top" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 106 )
 material/0 = null
 material/1 = null
@@ -3221,14 +3229,14 @@ material/7 = null
 
 [node name="Tower_Wall_Normal_Plain" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, -13 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 107 )
 material/0 = null
 material/1 = null
 
 [node name="Tower_Wall_Normal_Window" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, -5 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 108 )
 material/0 = null
 material/1 = null
@@ -3236,7 +3244,7 @@ material/2 = null
 
 [node name="Tower_Wall_Normal_Windows" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, -10 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 109 )
 material/0 = null
 material/1 = null
@@ -3244,7 +3252,7 @@ material/2 = null
 
 [node name="Tower_Wall_Tall_Doorway" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, -11 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 136 )
 material/0 = null
 material/1 = null
@@ -3253,14 +3261,14 @@ material/3 = null
 material/4 = null
 
 [node name="Tower_Wall_Tall_Doorway_Base" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 138 )
 material/0 = null
 material/1 = null
 
 [node name="Tower_Wall_Tall_Window" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, -8 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 137 )
 material/0 = null
 material/1 = null
@@ -3268,7 +3276,7 @@ material/2 = null
 
 [node name="Tower_Wall_Tall_Windows" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, -6 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 139 )
 material/0 = null
 material/1 = null
@@ -3276,14 +3284,14 @@ material/2 = null
 
 [node name="Wall_Arch_Corner_Inner" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -7 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 141 )
 material/0 = null
 material/1 = null
 
 [node name="Wall_Arch_Corner_Outer" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 140 )
 material/0 = null
 material/1 = null
@@ -3292,47 +3300,47 @@ material/2 = null
 [node name="Wall_Arch_Straight" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 0, 21 )
 mesh = ExtResource( 142 )
-material/0 = SubResource( 42 )
-material/1 = SubResource( 42 )
-material/2 = SubResource( 42 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
 
 [node name="Wall_Curved_Large_Base" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 143 )
 material/0 = null
 
 [node name="Wall_Curved_Large_Coping" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 144 )
 material/0 = null
 
 [node name="Wall_Curved_Large_Middle" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 145 )
 material/0 = null
 material/1 = null
 
 [node name="Wall_Curved_Large_Top" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 4 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 146 )
 material/0 = null
 
 [node name="Wall_Curved_Small_Base" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 35 )
 material/0 = null
 
 [node name="Wall_Curved_Small_Coping" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, -16 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 36 )
 material/0 = null
 
 [node name="Wall_Curved_Small_Middle" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -15 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 37 )
 material/0 = null
 material/1 = null
@@ -3340,13 +3348,13 @@ material/2 = null
 
 [node name="Wall_Curved_Small_Top" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 6 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 38 )
 material/0 = null
 
 [node name="Wall_Curved_Small_Window" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -13 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 40 )
 material/0 = null
 material/1 = null
@@ -3354,7 +3362,7 @@ material/2 = null
 
 [node name="Wall_Curved_Small_Window_Tall" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 5 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 39 )
 material/0 = null
 material/1 = null
@@ -3362,16 +3370,16 @@ material/1 = null
 [node name="Wall_End_Base" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 18 )
 mesh = ExtResource( 41 )
-material/0 = SubResource( 42 )
+material/0 = SubResource( 3 )
 
 [node name="Wall_End_Coping" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 16 )
 mesh = ExtResource( 42 )
-material/0 = SubResource( 42 )
+material/0 = SubResource( 3 )
 
 [node name="Wall_End_Middle" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 16 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 43 )
 material/0 = null
 material/1 = null
@@ -3380,10 +3388,10 @@ material/2 = null
 [node name="Wall_End_Top" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 17 )
 mesh = ExtResource( 44 )
-material/0 = SubResource( 42 )
+material/0 = SubResource( 3 )
 
 [node name="Wall_Ruined_Corner_Inner_1" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 46 )
 material/0 = null
 material/1 = null
@@ -3391,7 +3399,7 @@ material/2 = null
 material/3 = null
 
 [node name="Wall_Ruined_Corner_Inner_2" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 45 )
 material/0 = null
 material/1 = null
@@ -3399,14 +3407,14 @@ material/2 = null
 material/3 = null
 
 [node name="Wall_Ruined_Corner_Outer_1" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 47 )
 material/0 = null
 material/1 = null
 material/2 = null
 
 [node name="Wall_Ruined_Corner_Outer_2" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 48 )
 material/0 = null
 material/1 = null
@@ -3415,45 +3423,45 @@ material/2 = null
 [node name="Wall_Ruined_Full_1" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 5 )
 mesh = ExtResource( 50 )
-material/0 = SubResource( 41 )
-material/1 = SubResource( 41 )
-material/2 = SubResource( 41 )
-material/3 = SubResource( 41 )
-material/4 = SubResource( 42 )
-material/5 = SubResource( 41 )
-material/6 = SubResource( 41 )
-material/7 = SubResource( 41 )
-material/8 = SubResource( 41 )
-material/9 = SubResource( 41 )
-material/10 = SubResource( 41 )
-material/11 = SubResource( 41 )
-material/12 = SubResource( 41 )
+material/0 = SubResource( 2 )
+material/1 = SubResource( 2 )
+material/2 = SubResource( 2 )
+material/3 = SubResource( 2 )
+material/4 = SubResource( 3 )
+material/5 = SubResource( 2 )
+material/6 = SubResource( 2 )
+material/7 = SubResource( 2 )
+material/8 = SubResource( 2 )
+material/9 = SubResource( 2 )
+material/10 = SubResource( 2 )
+material/11 = SubResource( 2 )
+material/12 = SubResource( 2 )
 
 [node name="Wall_Ruined_Full_2" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -17 )
 mesh = ExtResource( 49 )
-material/0 = SubResource( 41 )
-material/1 = SubResource( 41 )
-material/2 = SubResource( 41 )
-material/3 = SubResource( 41 )
-material/4 = SubResource( 41 )
-material/5 = SubResource( 41 )
-material/6 = SubResource( 42 )
-material/7 = SubResource( 41 )
+material/0 = SubResource( 2 )
+material/1 = SubResource( 2 )
+material/2 = SubResource( 2 )
+material/3 = SubResource( 2 )
+material/4 = SubResource( 2 )
+material/5 = SubResource( 2 )
+material/6 = SubResource( 3 )
+material/7 = SubResource( 2 )
 
 [node name="Wall_Ruined_Full_Cracked_1" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -2 )
 mesh = ExtResource( 116 )
-material/0 = SubResource( 42 )
+material/0 = SubResource( 3 )
 
 [node name="Wall_Ruined_Full_Cracked_2" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 5 )
 mesh = ExtResource( 118 )
-material/0 = SubResource( 42 )
+material/0 = SubResource( 3 )
 
 [node name="Wall_Ruined_Half_1" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -17 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 117 )
 material/0 = null
 material/1 = null
@@ -3462,7 +3470,7 @@ material/3 = null
 material/4 = null
 
 [node name="Wall_Ruined_Half_2" type="MeshInstance" parent="."]
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 119 )
 material/0 = null
 material/1 = null
@@ -3472,34 +3480,34 @@ material/3 = null
 [node name="Wall_Straight_Arch_Top" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, 21 )
 mesh = ExtResource( 120 )
-material/0 = SubResource( 42 )
+material/0 = SubResource( 3 )
 
 [node name="Wall_Straight_Base" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2 )
 mesh = ExtResource( 121 )
-material/0 = SubResource( 42 )
+material/0 = SubResource( 3 )
 
 [node name="Wall_Straight_Coping" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 5, 0 )
 mesh = ExtResource( 122 )
-material/0 = SubResource( 42 )
+material/0 = SubResource( 3 )
 
 [node name="Wall_Straight_Cubby" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0 )
 mesh = ExtResource( 123 )
-material/0 = SubResource( 42 )
-material/1 = SubResource( 42 )
-material/2 = SubResource( 42 )
-material/3 = SubResource( 42 )
-material/4 = SubResource( 42 )
-material/5 = SubResource( 42 )
-material/6 = SubResource( 42 )
-material/7 = SubResource( 42 )
-material/8 = SubResource( 42 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
+material/3 = SubResource( 3 )
+material/4 = SubResource( 3 )
+material/5 = SubResource( 3 )
+material/6 = SubResource( 3 )
+material/7 = SubResource( 3 )
+material/8 = SubResource( 3 )
 
 [node name="Wall_Straight_Door" type="MeshInstance" parent="."]
 transform = Transform( 0.999998, -0.0016699, -0.00119358, 0.0016694, 0.999999, -0.000417283, 0.00119428, 0.000415278, 0.999999, -35, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 124 )
 material/0 = null
 material/1 = null
@@ -3515,19 +3523,19 @@ material/9 = null
 [node name="Wall_Straight_Doorway" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -41, 0, 0 )
 mesh = ExtResource( 125 )
-material/0 = SubResource( 42 )
-material/1 = SubResource( 42 )
-material/2 = SubResource( 42 )
-material/3 = SubResource( 42 )
-material/4 = SubResource( 42 )
-material/5 = SubResource( 42 )
-material/6 = SubResource( 42 )
-material/7 = SubResource( 42 )
-material/8 = SubResource( 42 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
+material/3 = SubResource( 3 )
+material/4 = SubResource( 3 )
+material/5 = SubResource( 3 )
+material/6 = SubResource( 3 )
+material/7 = SubResource( 3 )
+material/8 = SubResource( 3 )
 
 [node name="Wall_Straight_Doorway_Large" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 98 )
 material/0 = null
 material/1 = null
@@ -3536,7 +3544,7 @@ material/3 = null
 
 [node name="Wall_Straight_Doorway_Large_Extension" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 0, 1 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 99 )
 material/0 = null
 material/1 = null
@@ -3544,7 +3552,7 @@ material/2 = null
 
 [node name="Wall_Straight_Doorway_Large_Pocket" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 100 )
 material/0 = null
 material/1 = null
@@ -3558,7 +3566,7 @@ material/8 = null
 
 [node name="Wall_Straight_Door_Eclipse" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -39, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 101 )
 material/0 = null
 material/1 = null
@@ -3577,23 +3585,23 @@ material/12 = null
 [node name="Wall_Straight_Door_Large" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -33, 0, 0 )
 mesh = ExtResource( 102 )
-material/0 = SubResource( 352 )
-material/1 = SubResource( 42 )
-material/2 = SubResource( 42 )
-material/3 = SubResource( 42 )
-material/4 = SubResource( 41 )
-material/5 = SubResource( 42 )
-material/6 = SubResource( 41 )
-material/7 = SubResource( 42 )
-material/8 = SubResource( 41 )
-material/9 = SubResource( 42 )
-material/10 = SubResource( 41 )
-material/11 = SubResource( 42 )
-material/12 = SubResource( 41 )
+material/0 = SubResource( 4 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
+material/3 = SubResource( 3 )
+material/4 = SubResource( 2 )
+material/5 = SubResource( 3 )
+material/6 = SubResource( 2 )
+material/7 = SubResource( 3 )
+material/8 = SubResource( 2 )
+material/9 = SubResource( 3 )
+material/10 = SubResource( 2 )
+material/11 = SubResource( 3 )
+material/12 = SubResource( 2 )
 
 [node name="Wall_Straight_Door_Large_Pocket" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 103 )
 material/0 = null
 material/1 = null
@@ -3618,7 +3626,7 @@ material/19 = null
 
 [node name="Wall_Straight_Door_Moon" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -38, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 205 )
 material/0 = null
 material/1 = null
@@ -3637,7 +3645,7 @@ material/13 = null
 
 [node name="Wall_Straight_Door_Stars" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -36, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 206 )
 material/0 = null
 material/1 = null
@@ -3656,7 +3664,7 @@ material/13 = null
 
 [node name="Wall_Straight_Door_Sun" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 207 )
 material/0 = null
 material/1 = null
@@ -3674,24 +3682,24 @@ material/11 = null
 [node name="Wall_Straight_Middle" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 7 )
 mesh = ExtResource( 208 )
-material/0 = SubResource( 42 )
-material/1 = SubResource( 42 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
 
 [node name="Wall_Straight_Top" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
 mesh = ExtResource( 210 )
-material/0 = SubResource( 42 )
+material/0 = SubResource( 3 )
 
 [node name="Wall_Straight_Window" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0 )
 mesh = ExtResource( 209 )
-material/0 = SubResource( 42 )
-material/1 = SubResource( 42 )
-material/2 = SubResource( 42 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
 
 [node name="Wall_Straight_Windows" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 211 )
 material/0 = null
 material/1 = null
@@ -3699,7 +3707,7 @@ material/2 = null
 
 [node name="Wall_Straight_Windows_Tall" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0 )
-material_override = SubResource( 41 )
+material_override = SubResource( 2 )
 mesh = ExtResource( 213 )
 material/0 = null
 material/1 = null
@@ -3707,9 +3715,9 @@ material/1 = null
 [node name="Wall_Straight_Window_Tall" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0 )
 mesh = ExtResource( 212 )
-material/0 = SubResource( 42 )
-material/1 = SubResource( 42 )
-material/2 = SubResource( 42 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 3 )
+material/2 = SubResource( 3 )
 
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
 transform = Transform( 1, 0, 0, 0, -0.5, 0.866025, 0, -0.866025, -0.5, 0, 4, 0 )
